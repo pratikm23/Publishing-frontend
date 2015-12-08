@@ -1,0 +1,20 @@
+<div style="height: 30px;
+    background: #ccc;
+    text-align: center;
+     padding-top: 6px;">
+	<h5 style="margin-top: 7px;">TOP 10 Full Track</h5>
+</div>
+<table width="90%" style="margin-top:20px" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td ng-repeat="portlet in portletData | filter:{ portletId: 2 }" align="center">
+			<a href="http://dailymagic.in/direct2Cg.php?c=1&promo={{portlet.promoid}}&f=home&t={{portlet.contentTypeMD5}}&n={{portlet.contentFileURLMD5}}&m={{portlet.cm_id}}&d={{portlet.cm_content_type}}"><img src="http://dailymagic.in{{portlet.cft_thumbnail_img_browse}}?{{portlet.timestamp}}" width="{{portlet.cft_thumbnail_size.split('X')[0]}}" height="{{portlet.cft_thumbnail_size.split('X')[1]}}" alt="" /></a>
+			<br />	
+			{{portlet.cm_title}}-{{portlet.cd_name}}					
+		</td>
+	</tr>    
+	<tr>
+		<td height="30" colspan="3" align="right">
+			<a href="http://dailymagic.in/direct2Cg.php?c=1&promo=z_565e7d5f13088&f=home" style="text-decoration:none;">More >></a>			
+		</td>
+	</tr>
+</table>
