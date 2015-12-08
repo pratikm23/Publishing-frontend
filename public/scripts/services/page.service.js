@@ -1,6 +1,7 @@
 app.service('Page', ['$http', function ($http) {
 
-    this.baseRestUrl = "http://192.168.5.183:3090";
+    this.baseRestUrl = "http://192.168.3.182:3090";
+
 
 
     this.getPortletContentByPageName = function(data,success){
