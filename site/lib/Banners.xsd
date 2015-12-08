@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Banners">
+		<xs:complexType>
+			<xs:sequence>	
+				<xs:element name="Pre">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Show" type="xs:boolean" />
+							<xs:element name="ImageType" type="xs:string" />
+							<xs:element name="BannerPath" type="xs:string" />
+							<xs:element name="Top">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Image" type="xs:string" />
+										<xs:element name="Url" type="xs:string" />
+									</xs:sequence>	
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Bottom">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Image" type="xs:string" />
+										<xs:element name="Url" type="xs:string" />
+									</xs:sequence>	
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>	
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Post">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Show" type="xs:boolean" />
+							<xs:element name="ImageType" type="xs:string" />
+							<xs:element name="BannerPath" type="xs:string" />
+							<xs:element name="Top">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Image" type="xs:string" />
+										<xs:element name="Url" type="xs:string" />
+									</xs:sequence>	
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Bottom">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Image" type="xs:string" />
+										<xs:element name="Url" type="xs:string" />
+									</xs:sequence>	
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>	
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>	
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
