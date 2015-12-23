@@ -38,8 +38,8 @@
 	          
 ?>		
         <td align="center">
-            <a href="http://dailymagic.in/direct2Cg.php?c=1&promo=<?=$PROMOID?>&f=home&t=<?=$value['contentTypeMD5']?>&n=<?=base64_encode($storeObj->getDifferentFileNames($value['cf_url'],$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION))?>&m=<?=$value['cf_cm_id']?>&d=<?=$value['cd_id']?>&i=<?=$value['cf_template_id']?>">
-            	<img src="http://dailymagic.in<?=$value['cft_thumbnail_img_browse']?>?<?=$value['timestamp']?>" width="125" height="125" alt="" /></a>
+            <a href="../<?=$SUBPARAM?>&f=home&t=<?=$value->contentTypeMD5?>&n=<?=base64_encode($storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION))?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>&i=<?=$value->cf_template_id?>">
+            	<img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" /></a>
             <br />
         </td>
 <?php
@@ -67,7 +67,7 @@
             <?php
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){
             ?>
-                <a href="http://dailymagic.in/direct2Cg.php?c=1&promo=<?=$value['promoid']?>&f=home" style="text-decoration:none;">More >></a>
+                <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
                 }else{
 
