@@ -55,7 +55,7 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 	$output = $curlObj->executePostCurl($serviceUrl,$data);
 	
 	$UserSubscribeInfo = json_decode($output['Content'], true);
-	print_r($UserSubscribeInfo );
+	//print_r($UserSubscribeInfo );
 }
 ?>
 	<?php if($userStatus == 'NEWUSER' || $userStatus == 'UNKNOWN' || $userStatus == 'UNSUBSCRIBED' ){  ?>

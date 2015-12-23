@@ -17,8 +17,10 @@ use Store\Logger as Logger;
 $user = new User\User();
 
 $promo = $user->PromoBannerId;
-$userStatus = $user->getUserStatus();
-$userId = $user->getUserId();
+//$userStatus = $user->getUserStatus();
+$userStatus = "SUBSCRIBED";
+// $userId = $user->getUserId();
+$userId=2761661;
 
 
 $operator = $user->getOperator();

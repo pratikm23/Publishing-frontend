@@ -145,6 +145,6 @@ class Config {
  }
 
  public function setPersistentCookie($cookieName, $cookieValue){
-  setcookie($cookieName, $cookieValue, time() + (10  365  24  60  60), '/');
+  setcookie($cookieName, $cookieValue, time() + (10 * 365 * 24 * 60 * 60), '/');
  }
 }

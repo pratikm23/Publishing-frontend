@@ -50,7 +50,7 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 				$UnSubData['OTHER2'] = '';
 				
 				$pString = '';
-				print_r($_SERVER['HTTP_HOST']);
+				//print_r($_SERVER['HTTP_HOST']);
 				foreach($UnSubData as $key => $value){
 					$pString .= $key.'='.$value.'&';
 				}

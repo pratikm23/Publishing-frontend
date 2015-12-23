@@ -31,7 +31,7 @@ $image_url = $cgImages[$rand_keys];
 
 	<tr>
 		<td align="center">
-			
+		<img src="<?=$image_url?>" alt="" />	
 		</td>
 	</tr>
 	
@@ -55,6 +55,6 @@ $image_url = $cgImages[$rand_keys];
 		<td>&nbsp;</td>
 	</tr>
 	
-// <?php
+<?php
 // include 'footer.php';
-// ?>
+ ?>
