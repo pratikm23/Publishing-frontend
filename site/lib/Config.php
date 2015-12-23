@@ -13,15 +13,20 @@ class Config{
 					'User' => 'central-user',
 					'Password' => 'centr@l@123#'
 				),
+				'icon_cms' => array(
+					'Name' => 'icon_cms',
+					'User' => 'root',
+					'Password' => ''
+				),
 				'ikon' => array(
 					'Name' => 'ikon_cms',
 					'User' => 'ikon',
 					'Password' => 'ikon@123#'
 				),
 				'siteUser' => array(
-					'Name' => 'site_user',
-					'User' => 'ikon',
-					'Password' => 'ikon@123#'
+					'Name' => 'siteuser',
+					'User' => 'root',
+					'Password' => ''
 				),
 				'plan' => array(
 					'Name' => 'icon_plan',

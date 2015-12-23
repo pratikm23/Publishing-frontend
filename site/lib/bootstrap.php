@@ -82,8 +82,10 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 if(SITE_MODE == 1 ){
-	define('DBHOST', '192.168.1.160');
+	// define('DBHOST', '192.168.1.160');
+	define('DBHOST', 'localhost');
 	define('SVCHOST', 'http://192.168.1.156/');
+	// define('SVCHOST', 'http://10.64.11.170/');
 	define('BILLINGHOST', 'http://192.168.1.156/');
 }else{
 	define('DBHOST', '10.64.12.136');

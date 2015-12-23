@@ -253,11 +253,11 @@ $deviceInfo = $D2C->GetDeviceSize();
 $mobileInfo = $D2C->GetMobileInfo();
 $mobileDtd = $D2C->GetLanguage();
 $sessionId = $D2C->GetSessionId();
-
-if ($_SERVER['HTTP_NET_IP_ADDRESS'] == '101.222.243.244' || $_SERVER['HTTP_CLIENT_IP'] == '101.222.243.244') {
-		$logFile = '/var/www/dailymagic/logs/bannertest-'.date('Y-m-d-H').'.log';
-		file_put_contents($logFile, "\n Log : ".$userStatus." - ".$userId." - ".$operator." - ".$clientIp." - ".$msisdn." - ".$OprSubParam." - ".print_r($OprSubParam,true), FILE_APPEND);	
-	}
+//$_SERVER['HTTP_NET_IP_ADDRESS'] = '101.222.243.244';
+ // if ($_SERVER['HTTP_NET_IP_ADDRESS'] == '101.222.243.244' || $_SERVER['HTTP_CLIENT_IP'] == '101.222.243.244') {
+	// 	$logFile = '/var/www/dailymagic/logs/bannertest-'.date('Y-m-d-H').'.log';
+	// 	file_put_contents($logFile, "\n Log : ".$userStatus." - ".$userId." - ".$operator." - ".$clientIp." - ".$msisdn." - ".$OprSubParam." - ".print_r($OprSubParam,true), FILE_APPEND);	
+	// }
 
 $dbIkon = new DB($config['Db']['ikon']['User'], $config['Db']['ikon']['Password'], $config['Db']['ikon']['Name']);
 $db = $dbIkon->getConnection();

@@ -10,12 +10,24 @@ class Db{
 	// Get Connection resource object
 	public function getConnection(){
 		//function getConnection() opens here
-		
 		$con = new mysqli(DBHOST,$this->userName,$this->password, $this->database);
 		if($con->connect_errno > 0){
 			die('Unable to connect to database [' . $con->connect_error . ']');
 		}
 		return $con;	
+		// $dbConnection = new PDO("mysql:host=" . DBHOST . ";" .
+  //             "port=" . '3306' . ";" .
+  //             "dbname=" . $this->database . ";charset=utf8;"
+  //             , $this->userName
+  //             , $this->password
+  //           );             
+            
+  //            $dbConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  //            foreach($dbConnection->query('SELECT * FROM icn_store') as $row) {
+  //   			echo $row['st_id']; //etc...
+		// 	}
+           // print_r( $dbConnection );
+           // exit;
 	}
 
 	public function execute($dbCon, $query){
