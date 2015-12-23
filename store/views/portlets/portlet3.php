@@ -24,11 +24,12 @@
             if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){
 ?>		
         <td align="center">
-            <a href="http://dailymagic.in/direct2Cg.php?c=1&promo=$PROMOID&f=home&t=<?=$value->contentTypeMD5?>&n=<?=base64_encode($storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION))?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
-            	<img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" />
-            </a>
+            <a href="../<?=$SUBPARAM?>&f=home&t=<?=$value->contentTypeMD5?>&n=<?=base64_encode($storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION))?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
+            	<img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" /></a>
             <br />
-            <?php echo $storeObj->getGenreName($value->cm_genre)['cd_name']; ?>
+            <?php
+                echo $value->genre; 
+            ?>
         </td>
 <?php
         }else{
@@ -39,7 +40,7 @@
             <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION)?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
                     <img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" /></a>
             <br/>
-            <?php echo $storeObj->getGenreName($value->cm_genre)['cd_name']."<br/>"; ?>
+            <?php echo $value->genre."<br/>"; ?>
             <!-- Links for medium and high res -->
            
             <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,'high')?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">High</a>
@@ -50,13 +51,13 @@
 		} // foreach
 ?>
     </tr>
-    <tr >
+    <tr>
         <td height="30" colspan="3" align="right">
             <?php 
             //TO CHANGE :: PROMO ID     
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){                  
             ?>
-                <a href="http://dailymagic.in/direct2Cg.php?c=1&promo=<?=$PROMOID?>&f=home" style="text-decoration:none;">More >></a>
+                <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
                     }else{
             ?>

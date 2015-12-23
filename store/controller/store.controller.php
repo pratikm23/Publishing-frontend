@@ -1,22 +1,34 @@
 <?php
-	
+	use Store\Curl as Curl;
 	class Store {
 		public function __construct(){
 			/* Bootstrap.php includes config and db.php  */
-			include "../../site/lib/bootstrap.php";
-			include "../models/store.model.php";	
-			include "../../site/lib/functions.php";
+			// include "../../site/lib/bootstrap.php";
+			// include_once "../../preload/Store/config.php";
+			include_once '../../preload/Store/config.php';
+			include_once "../models/store.model.php";	
+			include_once "../../site/lib/functions.php";
 			
-			$dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
+			// $this->userStatus = $userStatus;
+			$this->userStatus = "SUBSCRIBED";
+			$this->promoId = $promo;
+			$this->linkUrl = $linkUrl;
+			$this->subParam = $subParam;
 
-			$this->dbCon = $dbCMS->getConnection();
+			$this->curlObj = new Curl\Curl();
+
+			// $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
+
+			// $this->dbCon = $dbCMS->getConnection();
 		}
+
 		public function setStoreConfigs($pageName,$storeId){
 			$this->pageName = $pageName;
 			$this->storeId = $storeId;
 		}
 		
 		public function getPortletContent(){
+			
 			$url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
 			$data = array(
 					"pageName" => $this->pageName,
@@ -26,7 +38,7 @@
 				 );
 			$data = json_encode($data);
 			// print_r($data);
-			$result_portletContent = $this->ExecutePostCurl($url,$data);
+			$result_portletContent = $this->curlObj->ExecutePostCurl($url,$data);
 
 			// print_r($result_portletContent);
 			// print_r(json_decode($result_portletContent['Content'])->message->potletMapDetails);
@@ -52,6 +64,8 @@
 			/*while( $res = $result_portletContent->fetch_assoc()){
 					$portlet['portletContent'][] = $res;
 			}*/
+			// var_dump($portlet);
+			// exit;
 			return $portlet;
 		}
 
@@ -143,19 +157,21 @@
 	     
 		}
 
-		public function getGenreName($genreId){
-			$genreName = getValuefromTable($this->dbCon, 'catalogue_detail', 'cd_id', $genreId);
-			return $genreName;
-		}
+		// public function getGenreName($genreId){
+		// 	$genreName = getValuefromTable($this->dbCon, 'catalogue_detail', 'cd_id', 22);
+		// 	return "GLAMOUR";
+		// }
 
-		public function getUserStatus(){
-			return "SUBSCRIBED";
-		}
+		// public function getUserStatus(){
+		
+				
+		// 	return $this->userStatus;
+		// }
 
 
-		public function getPromoId(){
-			return  'z_'.uniqid();
-		}
+		// public function getPromoId(){
+		// 	return  'z_'.uniqid();
+		// }
 
 		public function contentPagination($arr,$startFrom,$eachPage){
 			 $allContent = $arr;
@@ -163,23 +179,7 @@
 			 return $allContent;
 		}
 
-		private function ExecutePostCurl($url, $data){
-			$ch = curl_init(); 
-			curl_setopt($ch, CURLOPT_URL, $url);								
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);			
-			curl_setopt($ch, CURLOPT_POST, count($data));
-			curl_setopt($ch, CURLOPT_POSTFIELDS, $data);	
-			$content = curl_exec ($ch);  
-			$getCurlInfo = curl_getinfo($ch);	
-			$curlError = curl_error($ch);
-			curl_close ($ch); // close curl handle	
-			
-			return array(
-				'Content' => $content,
-				'Info' => $getCurlInfo,
-				'Error' => $curlError
-			);
-		}
+		
 
 
 	}

@@ -17,9 +17,24 @@
 
 <?php
 	
-	include "../controller/store.controller.php";
+	include_once "../controller/store.controller.php";
+	// require_once('../../preload/Store/lib/config.class.php');
+	// require_once "../../preload/Store/controller/user.class.php";
+	// require_once('../../preload/Store/lib/curl.class.php');
+	// require_once('../../preload/Store/controller/logger.class.php');
+	// require_once('../../preload/Store/controller/campaign.class.php');
+
+	// use Store\User as User;
+	// use Store\Device as Device;
+	// use Store\Config as Config;
+	// use Store\Curl as Curl;
+	// use Store\Campaign as Campaign;
+	// use Store\Logger as Logger;
+
 
 	$storeObj = new Store();
+	// $userObj = new User\User();
+			
 	//STORE CONFIGS : 
 	$PAGENAME = $_GET['pg'];
 	$STOREID = 1;
@@ -30,8 +45,13 @@
 	$storeObj->setStoreConfigs($PAGENAME,$STOREID);
 
 	
-	$USERSTATUS = $storeObj->getUserStatus();
-	$PROMOID = $storeObj->getPromoId();
+	$USERSTATUS = $storeObj->userStatus;
+	 // $USERSTATUS = $storeObj->$userStatus;
+	 
+	$PROMOID = $storeObj->promoId;
+	$LINKURL = $storeObj->linkUrl;
+	$SUBPARAM = $storeObj->subParam;
+	
 	// $SEARCHTXT = $_GET['search_txt'];
 ?>
 	<div style="text-align:center">

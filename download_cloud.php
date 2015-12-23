@@ -10,33 +10,39 @@ ini_set("error_log", $_SERVER['DOCUMENT_ROOT']."logs/php_error.log");
 
 header("access-control-allow-origin: *");
 
-include 'config.inc.php';
-
-if (!isset($_SESSION['downloadAllowed'])){
-	header("Location: index.php");
-	exit();
-}else{
-	if($_SESSION['downloadAllowed'] == 'false'){
-		header("Location: index.php");
-		exit();
-	}else{
-		$fileType = $_GET['t'];
-		$fileName = $_GET['n'];
+// include 'site/config.inc.php';
+include 'bootstrap.php';
+$dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
+ $dbCon = $dbCMS->getConnection();
+ print_r($dbCon);
+// session_start();
+// $_SESSION['downloadAllowed'] = true;
+// if (!isset($_SESSION['downloadAllowed'])){
+// 	header("Location: index.php");
+// 	exit();
+// }else{
+// 	if($_SESSION['downloadAllowed'] == 'false'){
+// 		header("Location: index.php");
+// 		exit();
+// 	}else{
+		//$fileType = $_GET['t'];
+		//$fileName = $_GET['n'];
 		$cont_reso_type = isset($_GET['r']) ? $_GET['r'] : '0';
 		$catalogue_detail_id = $_GET['d'];
-		$content_metadata_id = $_GET['m'];
+		// $content_metadata_id = $_GET['m'];
+		$content_metadata_id = 2;
 				
 		$query_download_path = "select * from content_metadata where cm_id=".$content_metadata_id."";
-		$resultVideo = $dbIkon->execute($db, $query_download_path);
-		if( $dbIkon->getRecordsCount($resultVideo) > 0 ){		
+		$resultVideo = $dbCon->query( $query_download_path);
+		//if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
 			while($row = $resultVideo->fetch_assoc()){
 				$videos[] = $row;
 			}						
-		}
+	//	}
 			
 		//Cloudfront Download Link Start
 		// Configure the private key
-		$private_key_filename = '/var/www/studiox/lib/pk-APKAI6KQIZYCKQ2ZFREA.pem';
+		$private_key_filename = 'pk-APKAI6KQIZYCKQ2ZFREA.pem';
 		$key_pair_id = 'APKAI6KQIZYCKQ2ZFREA';
 		
 		//Configure the URL of the file
@@ -71,8 +77,10 @@ if (!isset($_SESSION['downloadAllowed'])){
 						$WallpaperWidth = '720';
 						$WallpaperHeight = '1280';
 					}else{
-						$WallpaperWidth = $mobileInfo['Resolution_Width'];
-						$WallpaperHeight = $mobileInfo['Resolution_Height'];
+						// $WallpaperWidth = $mobileInfo['Resolution_Width'];
+						// $WallpaperHeight = $mobileInfo['Resolution_Height'];
+						$WallpaperWidth = 125;
+						$WallpaperHeight = 125;
 					}
 				}
 			}
@@ -86,7 +94,7 @@ if (!isset($_SESSION['downloadAllowed'])){
 			
 		//create the signed image url for display
 		$signed_url = create_signed_url($asset_path, $private_key_filename, $key_pair_id, $expires);   	
-					
+			 		
 		/*
 		$dbSiteUser = mysqli_connect(DBHOST, $config['Db']['siteUser']['User'], $config['Db']['siteUser']['Password'], $config['Db']['siteUser']['Name']);
 		
@@ -119,8 +127,8 @@ if (!isset($_SESSION['downloadAllowed'])){
 		
 		header("Location: ".$signed_url);
 		exit();
-	}	
-}	
+	// }	
+// }	
 
 			
 //Create the cloudfront signed URL
