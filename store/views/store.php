@@ -40,7 +40,7 @@
 	$STOREID = 1;
 	$MAINPATH = $_SERVER['DOCUMENT_ROOT']."PortletPublish_php";
 	// $DOWNLOADPATH =  $MAINPATH."site/download.php";
-	$DOWNLOADPATH =  "../../site/download.php";
+	$DOWNLOADPATH =  "../views/download_cloud.php";
 	
 	$storeObj->setStoreConfigs($PAGENAME,$STOREID);
 

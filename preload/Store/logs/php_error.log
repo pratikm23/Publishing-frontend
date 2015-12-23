@@ -1,0 +1,558 @@
+[22-Dec-2015 11:51:55 Asia/Calcutta] PHP Fatal error:  Call to a member function getNOKUrl() on a non-object in D:\xampp\htdocs\Store\direct2CG.php on line 27
+[22-Dec-2015 11:51:55 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 11:51:55 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\Store\direct2CG.php:0
+[22-Dec-2015 13:10:44 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:11:12 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:11:56 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 13:12:19 Asia/Calcutta] PHP Fatal error:  Call to a member function isMobile() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 376
+[22-Dec-2015 13:12:38 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::isAllowed() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 101
+[22-Dec-2015 13:16:54 Asia/Calcutta] PHP Fatal error:  Call to undefined function Store\Device\gmp_strval() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\device.class.php on line 45
+[22-Dec-2015 13:19:02 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:22:03 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:35 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:36 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:36 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:36 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:38 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:38 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:38 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:51 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:51 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:51 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:52 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:52 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:52 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:52 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:24:52 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:29:13 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:29:14 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:29:14 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:29:14 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:29:14 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:39:29 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:41:55 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:32 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:33 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:33 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:33 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:33 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:33 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 13:43:34 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:48 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:49 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:49 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:50 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:50 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:50 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:19:50 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:20:19 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:21:44 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:22:19 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:22:46 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:22:47 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:22:47 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:22:48 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:24:53 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:16 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:21 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:21 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:21 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:27 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:27 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:27 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:28 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:28 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:37 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:29:38 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:30:59 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:31:12 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:31:13 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:32:24 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:37:20 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 14:37:22 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 14:37:23 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 14:37:23 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 14:37:23 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::detectMobile() in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 98
+[22-Dec-2015 14:37:42 Asia/Calcutta] PHP Fatal error:  Class 'Store\User\Device\Device' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 155
+[22-Dec-2015 14:38:35 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[22-Dec-2015 14:39:03 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[22-Dec-2015 14:39:05 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[22-Dec-2015 14:39:06 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[22-Dec-2015 14:39:06 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[22-Dec-2015 14:39:15 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getDeviceSize() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 31
+[22-Dec-2015 14:39:31 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getMobileInfo() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 32
+[22-Dec-2015 14:39:32 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getMobileInfo() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 32
+[22-Dec-2015 14:39:32 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getMobileInfo() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 32
+[22-Dec-2015 14:39:32 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getMobileInfo() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 32
+[22-Dec-2015 14:49:22 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[22-Dec-2015 14:51:21 Asia/Calcutta] PHP Fatal error:  Class 'Store\User\Device\Device' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 155
+[22-Dec-2015 14:51:22 Asia/Calcutta] PHP Fatal error:  Class 'Store\User\Device\Device' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 155
+[22-Dec-2015 14:51:22 Asia/Calcutta] PHP Fatal error:  Class 'Store\User\Device\Device' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 155
+[22-Dec-2015 14:51:22 Asia/Calcutta] PHP Fatal error:  Class 'Store\User\Device\Device' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\controller\user.class.php on line 155
+[22-Dec-2015 14:51:46 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\User\User::getLanguage() in C:\xampp\htdocs\PortletPublish_php\preload\Store\config.php on line 34
+[22-Dec-2015 14:58:40 Asia/Calcutta] PHP Fatal error:  Cannot use object of type Store\Config\Config as array in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:09 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:10 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:10 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:10 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:10 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:11 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:26 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:27 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:27 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:27 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:13:27 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:14:11 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:14:12 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:14:12 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:14:12 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:15:16 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 5
+[22-Dec-2015 15:45:11 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:46:35 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:46:36 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:46:36 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:46:36 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:48:40 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:48:40 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:48:41 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:48:41 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:48:41 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:49:03 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:49:04 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:49:04 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:50:32 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:50:32 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:50:33 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:50:33 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:50:33 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:50:33 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 40
+[22-Dec-2015 15:51:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:51:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 15:51:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:52 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:00:53 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:02:45 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:02:59 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:03:24 Asia/Calcutta] PHP Fatal error:  Class 'Logger\Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:03:44 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:08:04 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 16:08:05 Asia/Calcutta] PHP Fatal error:  Class 'Logger' not found in C:\xampp\htdocs\PortletPublish_php\preload\Store\CallSubscription.php on line 39
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:38:55 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:42:07 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 17:43:34 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 17:43:34 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:43:34 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:43:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:44:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 17:45:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:02:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 18:06:34 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:06:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 18:08:03 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:6) in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 77
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   4. session_start() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:77
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:6) in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 77
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   4. session_start() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:77
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:20 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:6) in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 77
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   4. session_start() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:77
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP Stack trace:
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   2. Subscription->__construct() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:4
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\subscription.controller.php:6
+[22-Dec-2015 18:08:35 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 87
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:22
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:6
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:87
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 89
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:22
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:6
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:89
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php on line 96
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:22
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   3. include() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:6
+[23-Dec-2015 10:51:27 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\site\lib\bootstrap.php:96
+[23-Dec-2015 10:51:28 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php on line 46
+[23-Dec-2015 10:51:28 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 10:51:28 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 10:51:28 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:45
+[23-Dec-2015 11:26:33 Asia/Calcutta] PHP Fatal error:  Class 'Store\Curl\Curl' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 60
+[23-Dec-2015 11:26:33 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:26:33 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:26:33 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:31
+[23-Dec-2015 11:27:55 Asia/Calcutta] PHP Fatal error:  Class 'Store\Logger\Logger' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 140
+[23-Dec-2015 11:27:55 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:27:55 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:27:55 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:32
+[23-Dec-2015 11:27:55 Asia/Calcutta] PHP   3. Store\User\User->setLogData() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:112
+[23-Dec-2015 11:31:10 Asia/Calcutta] PHP Fatal error:  Class 'Store\Campaign\Campaign' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 185
+[23-Dec-2015 11:31:10 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:31:10 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:31:10 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:34
+[23-Dec-2015 11:31:10 Asia/Calcutta] PHP   3. Store\User\User->setCapaignDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:113
+[23-Dec-2015 11:31:37 Asia/Calcutta] PHP Fatal error:  Class 'Store\Campaign\Campaign' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 185
+[23-Dec-2015 11:31:37 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:31:37 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:31:37 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:34
+[23-Dec-2015 11:31:37 Asia/Calcutta] PHP   3. Store\User\User->setCapaignDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:113
+[23-Dec-2015 11:31:42 Asia/Calcutta] PHP Fatal error:  Class 'Store\Campaign\Campaign' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 185
+[23-Dec-2015 11:31:42 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:31:42 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:31:42 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:34
+[23-Dec-2015 11:31:42 Asia/Calcutta] PHP   3. Store\User\User->setCapaignDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:113
+[23-Dec-2015 11:33:20 Asia/Calcutta] PHP Fatal error:  Class 'Store\Campaign\Campaign' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 185
+[23-Dec-2015 11:33:20 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:33:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:33:20 Asia/Calcutta] PHP   2. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:34
+[23-Dec-2015 11:33:20 Asia/Calcutta] PHP   3. Store\User\User->setCapaignDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:113
+[23-Dec-2015 11:34:14 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 48
+[23-Dec-2015 11:34:14 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:34:14 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:34:18 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 48
+[23-Dec-2015 11:34:18 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:34:18 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:44:29 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:44:29 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:44:29 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:27 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:28 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:29 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:45:30 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:46:57 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:46:57 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:46:57 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:47:12 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:47:12 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:47:12 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:47:45 Asia/Calcutta] PHP Fatal error:  Cannot access empty property in C:\wamp\www\PortletPublish_php\store\views\store.php on line 49
+[23-Dec-2015 11:47:45 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:47:45 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:54:42 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php on line 46
+[23-Dec-2015 11:54:42 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:54:42 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:54:42 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 11:55:17 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php on line 46
+[23-Dec-2015 11:55:17 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:55:17 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:55:17 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 11:56:15 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php on line 46
+[23-Dec-2015 11:56:15 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 11:56:15 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 11:56:15 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\PortletPublish_php\site\lib\functions.php on line 54
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP   3. Store->getGenreName() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet3.php:30
+[23-Dec-2015 12:08:18 Asia/Calcutta] PHP   4. getValuefromTable() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:155
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\PortletPublish_php\site\lib\functions.php on line 54
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP   3. Store->getGenreName() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet3.php:30
+[23-Dec-2015 12:08:54 Asia/Calcutta] PHP   4. getValuefromTable() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:155
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\PortletPublish_php\site\lib\functions.php on line 54
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP   3. Store->getGenreName() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet3.php:32
+[23-Dec-2015 12:17:27 Asia/Calcutta] PHP   4. getValuefromTable() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:155
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\PortletPublish_php\site\lib\functions.php on line 54
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP   3. Store->getGenreName() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet3.php:32
+[23-Dec-2015 12:17:48 Asia/Calcutta] PHP   4. getValuefromTable() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:155
+[23-Dec-2015 12:37:01 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store::getGenreName() in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet5.php on line 27
+[23-Dec-2015 12:37:01 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:37:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:37:01 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[23-Dec-2015 12:40:34 Asia/Calcutta] PHP Fatal error:  Class 'Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 16
+[23-Dec-2015 12:40:34 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:40:34 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:40:34 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 12:40:48 Asia/Calcutta] PHP Fatal error:  Class 'Store\Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 16
+[23-Dec-2015 12:40:48 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:40:48 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:40:48 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 12:41:27 Asia/Calcutta] PHP Fatal error:  Class 'Store\Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 17
+[23-Dec-2015 12:41:27 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:41:27 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:41:27 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 12:41:51 Asia/Calcutta] PHP Fatal error:  Class 'Store\Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 17
+[23-Dec-2015 12:41:51 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:41:51 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:41:51 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 12:41:52 Asia/Calcutta] PHP Fatal error:  Class 'Store\Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 17
+[23-Dec-2015 12:41:52 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:41:52 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:41:52 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 12:43:06 Asia/Calcutta] PHP Fatal error:  Class 'Curl\Curl' not found in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 17
+[23-Dec-2015 12:43:06 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 12:43:06 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 12:43:06 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[23-Dec-2015 14:37:10 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet9.php on line 42
+[23-Dec-2015 14:37:10 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:37:10 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:37:10 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:37:15 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:37:15 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:37:15 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:37:15 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:41:31 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:41:31 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:41:31 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:41:31 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:42:04 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:42:04 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:42:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:42:04 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:42:12 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:42:12 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:42:12 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:42:12 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:42:31 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:42:31 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:42:31 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:42:31 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:48:30 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:48:30 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:48:30 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:48:30 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:49:09 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet11.php on line 41
+[23-Dec-2015 14:49:09 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:49:09 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:49:09 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:50:43 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet9.php on line 42
+[23-Dec-2015 14:50:43 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:50:43 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:50:43 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[23-Dec-2015 14:52:03 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\views\portlets\portlet9.php on line 42
+[23-Dec-2015 14:52:03 Asia/Calcutta] PHP Stack trace:
+[23-Dec-2015 14:52:03 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[23-Dec-2015 14:52:03 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63

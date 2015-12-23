@@ -178,11 +178,5 @@
 			 $allContent = array_slice($allContent,$startFrom,$eachPage);
 			 return $allContent;
 		}
-
-		
-
-
 	}
-		
-
 ?>

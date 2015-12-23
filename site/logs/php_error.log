@@ -2911,3 +2911,166 @@
 [23-Dec-2015 03:20:32 Europe/Paris] PHP Notice:  Undefined index: sp_plan_description in C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php on line 87
 [23-Dec-2015 03:20:32 Europe/Paris] PHP Stack trace:
 [23-Dec-2015 03:20:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\portlets\subscriptionplans.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 64
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 68
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 76
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 76
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Warning:  fopen(pk-APKAI6KQIZYCKQ2ZFREA.pem): failed to open stream: No such file or directory in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 175
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   4. fopen() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:175
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 176
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   4. fread() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 177
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   4. fclose() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:177
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 182
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:55:52 Europe/Paris] PHP   4. openssl_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:182
+[23-Dec-2015 10:55:52 Europe/Paris] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 185
+[23-Dec-2015 10:55:53 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   4. openssl_free_key() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:185
+[23-Dec-2015 10:55:53 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:76) in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 128
+[23-Dec-2015 10:55:53 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:55:53 Europe/Paris] PHP   2. header() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:128
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 64
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Warning:  fopen(pk-APKAI6KQIZYCKQ2ZFREA.pem): failed to open stream: No such file or directory in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 175
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:22 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:22 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:22 Europe/Paris] PHP   4. fopen() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:175
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 176
+[23-Dec-2015 10:59:22 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   4. fread() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 177
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   4. fclose() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:177
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 182
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   4. openssl_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:182
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 185
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   4. openssl_free_key() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:185
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176) in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 128
+[23-Dec-2015 10:59:23 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:23 Europe/Paris] PHP   2. header() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:128
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Warning:  fopen(pk-APKAI6KQIZYCKQ2ZFREA.pem): failed to open stream: No such file or directory in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 175
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   4. fopen() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:175
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 176
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   4. fread() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 177
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:49 Europe/Paris] PHP   4. fclose() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:177
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 182
+[23-Dec-2015 10:59:49 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   4. openssl_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:182
+[23-Dec-2015 10:59:50 Europe/Paris] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 185
+[23-Dec-2015 10:59:50 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   4. openssl_free_key() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:185
+[23-Dec-2015 10:59:50 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176) in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 128
+[23-Dec-2015 10:59:50 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 10:59:50 Europe/Paris] PHP   2. header() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:128
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  fopen(../site/lib/pk-APKAI6KQIZYCKQ2ZFREA.pem): failed to open stream: No such file or directory in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 175
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   4. fopen() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:175
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 176
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   4. fread() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 177
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   4. fclose() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:177
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 182
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   4. openssl_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:182
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 185
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. create_signed_url() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   3. rsa_sha1_sign() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:161
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   4. openssl_free_key() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:185
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:176) in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 128
+[23-Dec-2015 11:01:11 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:01:11 Europe/Paris] PHP   2. header() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:128
+[23-Dec-2015 11:03:25 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 90
+[23-Dec-2015 11:03:25 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:03:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:19:10 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 101
+[23-Dec-2015 11:19:10 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:19:10 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:21:30 Europe/Paris] PHP Notice:  Undefined offset: 0 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 48
+[23-Dec-2015 11:21:30 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:21:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[23-Dec-2015 11:22:16 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 102
+[23-Dec-2015 11:22:16 Europe/Paris] PHP Stack trace:
+[23-Dec-2015 11:22:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
