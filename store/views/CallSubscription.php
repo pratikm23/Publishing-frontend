@@ -20,7 +20,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNKNOWN' or $userStatus == 'UNSUB
 			
 			$image_url = $hostName.'/cgImage/Footer_cg_image640x640.jpg';
 			
-			$billing_gateway = 'http://103.43.2.5/'.$config->operatorData['$operator']['BillingServiceSub'].'?REQUESTTYPE=NEW_SUB&APPCONTID=123&UNITTYPE=SUBSCRIPTION&CPEVENT='.$cpevent.'&MSISDN='.$msisdn.'&OPERATOR='.$operator.'&CMODE='.$OprSubParam['CMODE'].'&UID='.($config::UID).'&PASS='.($config::Paswd).'&TRANSID='.$TransId .'&RETURL='.$retUrl.'&FLRETURL='.$ErrorUrl.'&OTHER1='.$image_url.'&OTHER2='.$hostName.'&TOKENCALL='.$Token;
+			$billing_gateway = 'http://103.43.2.5/'.$config->operatorData[$operator]['BillingServiceSub'].'?REQUESTTYPE=NEW_SUB&APPCONTID=123&UNITTYPE=SUBSCRIPTION&CPEVENT='.$cpevent.'&MSISDN='.$msisdn.'&OPERATOR='.$operator.'&CMODE='.$OprSubParam['CMODE'].'&UID='.($config::UID).'&PASS='.($config::Paswd).'&TRANSID='.$TransId .'&RETURL='.$retUrl.'&FLRETURL='.$ErrorUrl.'&OTHER1='.$image_url.'&OTHER2='.$hostName.'&TOKENCALL='.$Token;
 			
 			$subscribeData = array(
 			'transactionId' => $TransId,
