@@ -1,11 +1,11 @@
 <?php
-include('controller\user.class.php');
-include('lib\config.class.php');
-include('lib\curl.class.php');
-include('controller\device.class.php');
-include('controller\campaign.class.php');
-include('controller\logger.class.php');
-include "controller/direct2CG.controller.php";
+include_once('controller\user.class.php');
+include_once('lib\config.class.php');
+include_once('lib\curl.class.php');
+include_once('controller\device.class.php');
+include_once('controller\campaign.class.php');
+include_once('controller\logger.class.php'); 
+//include_once "controller/direct2CG.controller.php";
 
 use Store\User as User;
 use Store\Device as Device;
@@ -17,10 +17,8 @@ use Store\Logger as Logger;
 $user = new User\User();
 
 $promo = $user->PromoBannerId;
-// $userStatus = $user->getUserStatus();
-$userStatus="SUBSCRIBED";
-//$userId = $user->getUserId();
-$userId= 2761661;
+$userStatus = $user->getUserStatus();
+$userId = $user->getUserId();
 
 
 $operator = $user->getOperator();
@@ -42,5 +40,6 @@ $config = $user->getConfigData();
 $currentPage = $user->getCurrentPage();
 $hostName = $user->hostName;
 $linkUrl =$user->getLinkUrl();
+$subParam = $user->getSubParam();
 
 ?>

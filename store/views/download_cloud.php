@@ -11,10 +11,10 @@ ini_set("error_log", $_SERVER['DOCUMENT_ROOT']."logs/php_error.log");
 header("access-control-allow-origin: *");
 
 // include 'site/config.inc.php';
-include 'bootstrap.php';
+include '../../site/lib/bootstrap.php';
 $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
- $dbCon = $dbCMS->getConnection();
- print_r($dbCon);
+$dbCon = $dbCMS->getConnection();
+ // print_r($dbCon);
 // session_start();
 // $_SESSION['downloadAllowed'] = true;
 // if (!isset($_SESSION['downloadAllowed'])){
@@ -29,26 +29,38 @@ $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Pa
 		//$fileName = $_GET['n'];
 		$cont_reso_type = isset($_GET['r']) ? $_GET['r'] : '0';
 		$catalogue_detail_id = $_GET['d'];
-		// $content_metadata_id = $_GET['m'];
-		$content_metadata_id = 2;
+		$content_metadata_id = $_GET['m'];
+		$cd_name =  "" ;
+		// $content_metadata_id = 2;
 				
 		$query_download_path = "select * from content_metadata where cm_id=".$content_metadata_id."";
 		$resultVideo = $dbCon->query( $query_download_path);
 		//if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
 			while($row = $resultVideo->fetch_assoc()){
 				$videos[] = $row;
-			}						
+			}		
+
+		$query_download_path = "select cd_name from catalogue_detail where cd_id=".$_GET['d']." LIMIT 1 ";
+		echo $query_download_path;
+		$resultContentName = $dbCon->query( $query_download_path);
+		//if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
+			while($row = $resultContentName->fetch_assoc()){
+				$cd_name = $row['cd_name'];
+			}
+
+		
+
 	//	}
 			
 		//Cloudfront Download Link Start
 		// Configure the private key
-		$private_key_filename = 'pk-APKAI6KQIZYCKQ2ZFREA.pem';
+		$private_key_filename = '../../site/lib/pk-APKAI6KQIZYCKQ2ZFREA.pem';
 		$key_pair_id = 'APKAI6KQIZYCKQ2ZFREA';
 		
 		//Configure the URL of the file
 		$Domain = 'http://d12m6hc8l1otei.cloudfront.net/';
 		
-		if((int)$_GET['d'] == 9){
+		if($cd_name == 'Video' || $cd_name == 'Video Clip'){
 			if ($cont_reso_type == 176){
 				$asset_path  = $videos[0]['cm_downloading_url'].'.3gp';
 			}elseif ($cont_reso_type == 240){
@@ -61,11 +73,11 @@ $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Pa
 				$WallpaperWidth = $mobileInfo['Wallpaper_Width'];
 				$WallpaperHeight = $mobileInfo['Wallpaper_Height'];
 			}else{
-				if( $mobileInfo['Resolution_Width'] > 800 ){
+				if( isset($mobileInfo['Resolution_Width']) && $mobileInfo['Resolution_Width'] > 800 ){
 					$WallpaperWidth = '720';
 					$WallpaperHeight = '1280';
 				}else{
-					if($mobileInfo['Resolution_Width'] == 800){
+					if(isset($mobileInfo['Resolution_Width']) && $mobileInfo['Resolution_Width'] == 800){
 						if($mobileInfo['Resolution_Width'] == 800 and $mobileInfo['Resolution_Height'] == 1280){
 							$WallpaperWidth = '720';
 							$WallpaperHeight = '1280';
@@ -73,7 +85,7 @@ $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Pa
 							$WallpaperWidth = '800';
 							$WallpaperHeight = '600';
 						}
-					}elseif($mobileInfo['Resolution_Width'] < 800 and $mobileInfo['Resolution_Width'] >= 768){
+					}elseif(isset($mobileInfo['Resolution_Width']) && $mobileInfo['Resolution_Width'] < 800 and $mobileInfo['Resolution_Width'] >= 768){
 						$WallpaperWidth = '720';
 						$WallpaperHeight = '1280';
 					}else{

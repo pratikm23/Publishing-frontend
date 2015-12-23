@@ -591,6 +591,33 @@ class User {
 				'IMAGE' => ''
 			);
 		}
+
+
 	}
+
+	public function getSubParam(){
+			if( !empty($this->extractParamFromQueryParameters) and isset($this->extractParamFromQueryParameters['c']) and $this->extractParamFromQueryParameters['c'] != '' and $this->extractParamFromQueryParameters['c'] != null and $this->extractParamFromQueryParameters['promo'] != '' and $this->extractParamFromQueryParameters['promo'] != null and isset($this->extractParamFromQueryParameters['promo']) ){
+		     $SubParam = 'views/direct2CG.php?';
+		     foreach($this->extractParamFromQueryParameters as $key => $value){
+                 if($key != 'transaction_id'){
+  
+                       $SubParam .= $key.'='.$value.'&';
+                     }
+                 }
+                 if(isset($_COOKIE[$this->CookieTag.'_tid']) and $_COOKIE[$this->CookieTag.'_tid'] != '' and $_COOKIE[$this->CookieTag.'_tid'] != null and $_COOKIE[$this->CookieTag.'_tid'] != '0'){
+					  $TransactionId = $_COOKIE[$this->CookieTag.'_tid'];
+					 }else{
+					  $TransactionId = 0;
+					 }
+					 $SubParam .= '&transaction_id='.rawurlencode($TransactionId).'&';
+					}else{ 
+					 if($showBanner == 'true'){
+					  $topBannerUrl .= '?c=1&promo='.$this->PromoBannerId.'&';
+					 }
+					 $SubParam = 'views/direct2CG.php?c=1&promo='.$this->PromoBannerId.'&';
+					}
+					            
+               return $SubParam;
+		}
 
 }
