@@ -71,7 +71,8 @@
   <tr>
   	
 	    <td>
-	    	<a href="../CallSubscription.php?EventId=<?=base64_encode($value['sp_jed_id'])?>" style=" text-decoration:none; color:#000000;"> 
+	    	<!-- $value['sp_jed_id'] -->
+	    	<a href="../CallSubscription.php?EventId=<?=base64_encode('JET0002')?>" style=" text-decoration:none; color:#000000;"> 
 		
 		    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				       <tr>

@@ -1,4 +1,5 @@
 <?php
+#userstatus -> NEWUSER || UNSUBSCRIBED
 require_once '../../preload/Store/config.php';
 use Store\Direct2CG as Direct2CG;
 //get config parameters;
@@ -11,7 +12,6 @@ $i = isset($_GET['i']) ? $_GET['i'] : null;
 $f = (isset($extractParams['f']))?$extractParams['f']:$currentPage;
 $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
 $price_point = (isset($extractParams['EventId']) and $extractParams['EventId'] != '' and $extractParams['EventId'] != null)? base64_decode($extractParams['EventId']): $OprSubParam['CPEVENT'];
-
 if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	if( !in_array($operator, $config->allowedOperators) ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
@@ -113,7 +113,8 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
 		exit();
 	}else{
-		header("Location: index.php");
+	#	header("Location: index.php");
+		echo "User status is unknown.";
 		exit();
 	}
 	//}

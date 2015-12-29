@@ -67,6 +67,7 @@ $dbCon = $dbCMS->getConnection();
 				$asset_path  = $videos[0]['cm_downloading_url'].'_240p.mp4';
 			}else{
 				$asset_path  = $videos[0]['cm_downloading_url'].'_360p.mp4';
+				
 			}
 		}else{
 			if( isset($mobileInfo['Wallpaper_Width']) and !empty($mobileInfo['Wallpaper_Width'])){

@@ -10,7 +10,7 @@
 			include_once "../../site/lib/functions.php";
 			
 			// $this->userStatus = $userStatus;
-			$this->userStatus = "SUBSCRIBED";
+			$this->userStatus = "NEWUSER";
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
@@ -29,7 +29,8 @@
 		
 		public function getPortletContent(){
 			
-			$url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
+			// $url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
+			$url = "http://localhost:9090/wICONapi/web/api/v2/index.php/page/getPageDetails";
 			$data = array(
 					"pageName" => $this->pageName,
 					"storeId" => $this->storeId,
@@ -38,9 +39,8 @@
 				 );
 			$data = json_encode($data);
 			// print_r($data);
-			$result_portletContent = $this->curlObj->ExecutePostCurl($url,$data);
+			$result_portletContent = $this->curlObj->executePostCurl($url,$data);
 
-			// print_r($result_portletContent);
 			// print_r(json_decode($result_portletContent['Content'])->message->potletMapDetails);
 			// exit;
 			// print_r($result_portletContent);
@@ -51,9 +51,7 @@
 			// while( $res = $result_packageids->fetch_assoc()){
 			$portlet['portletData'] = json_decode($result_portletContent['Content'])->message->potletMapDetails;
 			$portlet['portletContent'] = json_decode($result_portletContent['Content'])->message->portletDetails;
-
-			// print_r($portlet);
-			// exit;
+			
 
 			// 	if($res['packageId'] > 0)
 			// 		$packageIds[] = $res['packageId'];
@@ -74,10 +72,12 @@
 			$portletArray = $this->getPortletContent();
 			foreach ($portletArray['portletContent'] as $key => $value) {
 
-					if($value->cd_name == 'Wallpaper' && $portletId == $value->portletId){
-						$arr[] = $value;
+				foreach ($value->packageDetails as $packageDetail ) {
+
+					if($packageDetail->cd_name == 'Wallpaper' && $portletId == $packageDetail->portletId ){
+						$arr[] = $packageDetail;
 					}
-				
+				}
 			}
 			return $arr;
 		}
@@ -94,13 +94,18 @@
 		}	
 
 		public function getPortletVideos($portletId){
-			$arr = Array();
-			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
-					if($value->cd_name == 'Video' && $portletId == $value->portletId){
-						$arr[] = $value;
+				$arr = Array();
+				$portletArray = $this->getPortletContent();
+				foreach ($portletArray['portletContent'] as $key => $value) {
+					 
+					foreach ($value->packageDetails as $packageDetail ) {
+
+						if($packageDetail->cd_name == 'Video' && $portletId == $packageDetail->portletId ){
+							$arr[] = $packageDetail;
+						}
 					}
-			}
-			return $arr;
+				}
+			  return $arr;
 		}
 
 		public function getPortletVideosBySearchKeywords($portletId){

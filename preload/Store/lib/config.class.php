@@ -2,8 +2,7 @@
 namespace Store\Config;
 use Store\Curl as Curl;
 
-// include 'plugin/wurfl/autoload.php';
-// include 'plugin/Mobile_Detect.php';
+
 
 putenv('TZ=Asia/Kolkata');
 date_default_timezone_set('Asia/Calcutta');
@@ -88,7 +87,7 @@ class Config {
  const SubscribeText = 'Thank you for subscribing to DailyMagic. Now, you can download & enjoy unlimited content of your choice.';
  const DEBUG = 1; 
  const CookieTag = 'D2C';
-    const Paswd= 'jet@123';
+ const Paswd= 'jet@123';
 
  public $curlMethods;
  public $operatorData;

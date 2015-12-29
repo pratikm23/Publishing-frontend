@@ -44,7 +44,7 @@
             <?php
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){
             ?>
-                <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
+                <a href="../<?=$SUBPARAM?>&f=home&n=<?=base64_encode(1)?>" style="text-decoration:none;">More >></a>
             <?php
                 }else{
 

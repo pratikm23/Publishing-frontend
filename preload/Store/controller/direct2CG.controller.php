@@ -151,6 +151,7 @@ use Store\Curl as Curl;
 				
 			$image_url = $cgImages[$rand_keys];
 		}else{
+	
 			//$image_url = $hostName.$config['CgImage']['TopBanner'];
 			
 			$cgImages = array(
@@ -176,7 +177,7 @@ use Store\Curl as Curl;
 	}
     public function getUserStatus(){
 		return "UNSUBSCRIBED";
-		}
+	}
 
     public function getPromo(){
        	$this->promo = "";

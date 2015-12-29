@@ -3,7 +3,7 @@ namespace Store\User;
 use Store\Config as Config;
 use Store\Curl as Curl;
 use Store\Campaign as Campaign;
-//use Store\Device as Device;
+use Store\Device as Device;
 use Store\Logger as Logger;
 
 
@@ -95,19 +95,21 @@ class User {
 		$this->setCurrentPage();
 
 		// Create a Mobile Detection object
-		//$this->detectMobile();
+		$this->detectMobile();
 
 		//get allowed devices
-		//$this->isAllowed();
+		$this->isAllowed();
+		// print_r($this->isAllowed);
+		// exit;
 
-		if( true){
+		// if( true){
+		  if($this->isAllowed == 'true' ){
 			//get user details
 			//		$this->setUserProfileDetails();
 
 			$this->setUserDetails();
 			$this->setUniqueSessionId();
 			$this->setRefferer();
-
 			$this->setDeviceDetails();
 			$this->setLogData();
 			$this->setCapaignDetails();
@@ -148,25 +150,25 @@ class User {
 			'userAgent' => $this->userAgent,
 			'msisdn' => $this->msisdn,
 			'imsi' => $this->imsi,
- 			'operator' => $this->operator,
+ 			'operator' => $this->operator
 			//'config' => $this->config
  		);
-
-		// $this->deviceDetails = new Device\Device($data);
- 		if( $this->msisdn != self::UNKNOWN && $this->msisdn != '' && $this->msisdn != null && $this->operator != self::UNKNOWN ) {
+		$this->deviceDetails = new Device\Device($data);
+		
+		if( $this->msisdn != self::UNKNOWN && $this->msisdn != '' && $this->msisdn != null && $this->operator != self::UNKNOWN ) {
 			$this->deviceDetails->setIMSIContent();
 		}
 	}
-	// public function getMobileInfo(){
-	// 	return $this->deviceDetails->mobileInfo;
-	// }
+	public function getMobileInfo(){
+		return $this->deviceDetails->mobileInfo;
+	}
 
-	// public function getDeviceSize(){
-	// 	return array(
-	// 		'Width' => $this->deviceDetails->getDeviceWidth(),
-	// 		'Height' => $this->deviceDetails->getDeviceHeight()
-	// 	);
-	// }
+	public function getDeviceSize(){
+		return array(
+			'Width' => $this->deviceDetails->getDeviceWidth(),
+			'Height' => $this->deviceDetails->getDeviceHeight()
+		);
+	}
 
 	// public function getLanguage(){
 	// 	return $this->deviceDetails->lang;
@@ -366,25 +368,28 @@ class User {
 			$extractInfo[$t2[0]] = $t2[1];
 		}
 		//echo "<pre>";	print_r($extractInfo);
+		// print_r($extractInfo);
+		// exit;
 		return array(
 			'Response' => $extractInfo,
 			'Content' => $content['Content']
 		);
 	}
 
-	// public function isAllowed(){
-	// 	if ( $this->detectDevice->isMobile() ) {
-	// 		$this->isAllowed = 'true';
-	// 	}elseif ( $this->detectDevice->isTablet() ) {
-	// 		$this->isAllowed = 'true';
-	// 	}else{
-	// 		$this->isAllowed = 'true';
-	// 	}
-	// }
+	public function isAllowed(){
+		if ( $this->detectDevice->isMobile() ) {
+			$this->isAllowed = 'true';
+		}elseif ( $this->detectDevice->isTablet() ) {
+			$this->isAllowed = 'true';
+		}else{
+			$this->isAllowed = 'true';
+		}
+	}
 
-	// public function detectMobile(){
-	// 	$this->detectDevice  = new \Detection\Mobile_Detect;
-	// }
+	public function detectMobile(){
+		$this->detectDevice  = new \Detection\Mobile_Detect;
+
+	}
 
 	public function setCurrentURL(){
 		$this->currentURL = $_SERVER['REQUEST_URI'];

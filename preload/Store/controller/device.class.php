@@ -12,7 +12,6 @@ class Device {
     private $wurflInfo;
     private $config ;
     public $curlMethods;
-
     public $lang;
     public $make;
     public $model;
@@ -38,12 +37,11 @@ class Device {
 
         $this->config = new Config\Config();
 
-        //echo "<pre>"; var_dump($userData); exit;
+        // echo "<pre>"; var_dump($userData); exit;
         if (isset($userData['userAgent'])) {
             $this->userAgent = $userData['userAgent'];
         }
-        $this->agentId = gmp_strval($this->gmphexdec(md5($this->userAgent)));
-
+        $this->agentId = gmp_strval($this->gmphexdec(md5($this->userAgent))); 
         if (isset($userData['imsi'])) {
             $this->imsi = $userData['imsi'];
         }
@@ -54,11 +52,13 @@ class Device {
             $this->operator = $userData['operator'];
         }
 
-        // Get Browser details
+        // // Get Browser details
         $this->setBrowser();
 
-        //Get Device inforamtion
+        // //Get Device inforamtion
         $this->getWurlInfoFromDB();
+
+
         if( is_array($this->deviceDetails) and !empty($this->deviceDetails) ){
             $this->setDeviceInfo();
 
@@ -74,17 +74,18 @@ class Device {
             }
         }
        // echo "<pre>"; print_r($userData); exit;
-        $this->Logger = new Logger\Logger((array)$this);
+        // $this->Logger = new Logger\Logger((array)$this);
     }
 
     private function getWurlInfoFromDB(){
         $deviceInfo = array(
             'agent_id' => $this->agentId
         );
+        //echo "<pre>"; print_r($deviceInfo); exit();
         $deviceInfoResponse =  (object)$this->curlMethods->executePostCurl(READ_WURFL_DATA, $deviceInfo);
 
         $this->deviceDetails = json_decode($deviceInfoResponse->Content, true);
-        // echo "deviceInfo <pre>"; print_r($deviceInfoResponse); exit;
+        // echo "deviceInfo1 <pre>"; print_r($this->deviceDetails); exit;
 
     }
     private function updateWurlfInfoToDB($deviceInfo){
@@ -108,6 +109,7 @@ class Device {
     }
 
     private function setWURFLInfo(){
+
         $this->lang = "HTML";
 
         if( strtolower($this->wurflInfo['html_preferred_dtd']) == "html4" or strtolower($this->wurflInfo['html_preferred_dtd']) == "html5" ){
@@ -167,6 +169,7 @@ class Device {
     }
     public function setBrowser(){
         $browserDetails = get_browser($this->userAgent, true);
+        // echo "<pre>"; print_r($browserDetails);        exit();
         $this->browser = $browserDetails['browser'];
     }
     private function setDeviceInfo(){
@@ -216,7 +219,7 @@ class Device {
 
             $Imsicontent = $this->curlMethods->executePostCurl(IMSI_CIR_DATA, $imsiData);
 
-            $this->Logger->logIMSICircle($Imsicontent);
+            // $this->Logger->logIMSICircle($Imsicontent);
 
             if( stripos($Imsicontent['Content'], 'IMSI-Circle record added') !== false or stripos($Imsicontent['Content'], 'IMSI-Circle updated') !== false ){
                 setcookie($this->config['CookieTag'].'_IMSI', $this->imsi, strtotime('today 23:59'), '/');

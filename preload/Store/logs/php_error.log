@@ -1,0 +1,594 @@
+[24-Dec-2015 10:38:39 Asia/Calcutta] PHP Fatal error:  Call to undefined method Store\Curl\Curl::EwxecutePostCurl() in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 41
+[24-Dec-2015 10:38:39 Asia/Calcutta] PHP Stack trace:
+[24-Dec-2015 10:38:39 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[24-Dec-2015 10:38:39 Asia/Calcutta] PHP   2. Store->getPortletContent() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[28-Dec-2015 12:46:14 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 83
+[28-Dec-2015 12:46:14 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:46:14 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:46:49 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 89
+[28-Dec-2015 12:46:49 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:46:49 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:47:08 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 89
+[28-Dec-2015 12:47:08 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:47:08 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:47:35 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 12:47:35 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:47:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:48:05 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 89
+[28-Dec-2015 12:48:05 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:48:05 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:48:16 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 89
+[28-Dec-2015 12:48:16 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:48:16 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:48:37 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 12:48:37 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:48:37 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 12:55:41 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 12:55:41 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 12:55:41 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:00:31 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:00:31 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:00:31 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:04:57 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:04:57 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:04:57 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:05:07 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:05:07 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:05:07 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:05:53 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:05:53 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:05:53 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:06:02 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:06:02 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:06:02 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:07:34 Asia/Calcutta] PHP Fatal error:  Unsupported operand types in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:07:34 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:07:34 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:07:46 Asia/Calcutta] PHP Fatal error:  Unsupported operand types in C:\wamp\www\PortletPublish_php\store\views\search.php on line 90
+[28-Dec-2015 13:07:46 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:07:46 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[28-Dec-2015 13:56:54 Asia/Calcutta] PHP Fatal error:  Call to a member function getDifferentFileNames() on a non-object in C:\wamp\www\PortletPublish_php\store\views\search.php on line 136
+[28-Dec-2015 13:56:54 Asia/Calcutta] PHP Stack trace:
+[28-Dec-2015 13:56:54 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\search.php:0
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:38:12 Asia/Calcutta] PHP   4. Store\User\User->getDeviceSize() C:\wamp\www\PortletPublish_php\preload\Store\config.php:33
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:17
+[29-Dec-2015 10:39:49 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 166
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:43:10 Asia/Calcutta] PHP   4. Store\User\User->getDeviceSize() C:\wamp\www\PortletPublish_php\preload\Store\config.php:35
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP Fatal error:  Call to a member function setIMSIContent() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 158
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:49:48 Asia/Calcutta] PHP   5. Store\User\User->setDeviceDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:112
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP Fatal error:  Call to a member function setIMSIContent() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 158
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:50:41 Asia/Calcutta] PHP   5. Store\User\User->setDeviceDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:112
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP Fatal error:  Class 'ScientiaMobile\WurflCloud\Config' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php on line 68
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   5. Store\User\User->setDeviceDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:112
+[29-Dec-2015 10:52:02 Asia/Calcutta] PHP   6. Store\Device\Device->__construct() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:156
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 387
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:53:35 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 387
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:53:59 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 387
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:55:01 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 387
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:19
+[29-Dec-2015 10:55:28 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 10:57:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(101): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:00:49 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 11:00:54 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:00:55 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:07:32 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 11:15:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1532 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(155): Store\Device\Device->__const in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:19:36 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP Fatal error:  Class 'Detection\Mobile_Detect' not found in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 386
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:20:12 Asia/Calcutta] PHP   5. Store\User\User->detectMobile() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:98
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP Fatal error:  Call to a member function getDeviceWidth() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php on line 167
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:32:29 Asia/Calcutta] PHP   4. Store\User\User->getDeviceSize() C:\wamp\www\PortletPublish_php\preload\Store\config.php:36
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP Fatal error:  Call to a member function logIMSICircle() on a non-object in C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php on line 221
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   2. Store->__construct() C:\wamp\www\PortletPublish_php\store\views\store.php:35
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\store\controller\store.controller.php:8
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   4. Store\User\User->__construct() C:\wamp\www\PortletPublish_php\preload\Store\config.php:20
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   5. Store\User\User->setDeviceDetails() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:113
+[29-Dec-2015 11:57:24 Asia/Calcutta] PHP   6. Store\Device\Device->setIMSIContent() C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php:159
+[29-Dec-2015 12:22:20 Asia/Calcutta] PHP Fatal error:  Class 'Store\Direct2CG\direct2cg' not found in C:\wamp\www\PortletPublish_php\store\views\direct2CG.php on line 20
+[29-Dec-2015 12:22:20 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 12:22:20 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\direct2CG.php:0
+[29-Dec-2015 12:22:37 Asia/Calcutta] PHP Fatal error:  Class 'Store\Direct2CG\direct2cg' not found in C:\wamp\www\PortletPublish_php\store\views\direct2CG.php on line 20
+[29-Dec-2015 12:22:37 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 12:22:37 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\direct2CG.php:0
+[29-Dec-2015 12:24:03 Asia/Calcutta] PHP Fatal error:  Class 'Store\Direct2CG\direct2cg' not found in C:\wamp\www\PortletPublish_php\store\views\direct2CG.php on line 20
+[29-Dec-2015 12:24:03 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 12:24:03 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\direct2CG.php:0
+[29-Dec-2015 12:29:16 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:41:16 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:41:19 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:49:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:55:19 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:56:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Connection timed out after 1000 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__cons in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:57:04 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Connection timed out after 1000 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__cons in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:58:16 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Connection timed out after 1000 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__cons in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 12:58:28 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Connection timed out after 1000 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__cons in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:02:44 Asia/Calcutta] PHP Fatal error:  Cannot use object of type Store\Config\Config as array in C:\wamp\www\PortletPublish_php\store\views\direct2CG.php on line 68
+[29-Dec-2015 13:02:44 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 13:02:44 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\direct2CG.php:0
+[29-Dec-2015 13:05:16 Asia/Calcutta] PHP Fatal error:  Class 'Store\Direct2CG\direct2cg' not found in C:\wamp\www\PortletPublish_php\store\views\direct2CG.php on line 20
+[29-Dec-2015 13:05:16 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 13:05:16 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\direct2CG.php:0
+[29-Dec-2015 13:08:01 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:10:43 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:12:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 946 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Stor in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:14:41 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1515 milliseconds' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__const in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:15:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:16:47 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 946 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Stor in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 13:21:32 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 14:15:04 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 14:15:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to parse JSON response from server.' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php:312
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#1 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__construct(Array)
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(113): Store\User\User->setDeviceDetails()
+#5 C:\wamp\www\PortletPublish_php\preload\Store\config.php(20): Store\User\User->__construct()
+#6 C:\wamp\www\PortletPublish_p in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php on line 312
+[29-Dec-2015 15:27:21 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1015 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 15:28:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 15:33:47 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 53
+[29-Dec-2015 15:33:47 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:33:47 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:33:47 Asia/Calcutta] PHP   2. Store->getPortletContent() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[29-Dec-2015 15:36:34 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 53
+[29-Dec-2015 15:36:34 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:36:34 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:36:34 Asia/Calcutta] PHP   2. Store->getPortletContent() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[29-Dec-2015 15:36:37 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 53
+[29-Dec-2015 15:36:37 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:36:37 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:36:37 Asia/Calcutta] PHP   2. Store->getPortletContent() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[29-Dec-2015 15:36:39 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 53
+[29-Dec-2015 15:36:39 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:36:39 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:36:39 Asia/Calcutta] PHP   2. Store->getPortletContent() C:\wamp\www\PortletPublish_php\store\views\store.php:61
+[29-Dec-2015 15:37:24 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 15:38:58 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 75
+[29-Dec-2015 15:38:58 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:38:58 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:38:58 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[29-Dec-2015 15:38:58 Asia/Calcutta] PHP   3. Store->getPortletWallpapers() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php:19
+[29-Dec-2015 15:39:01 Asia/Calcutta] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\PortletPublish_php\store\controller\store.controller.php on line 75
+[29-Dec-2015 15:39:01 Asia/Calcutta] PHP Stack trace:
+[29-Dec-2015 15:39:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\store.php:0
+[29-Dec-2015 15:39:01 Asia/Calcutta] PHP   2. require() C:\wamp\www\PortletPublish_php\store\views\store.php:63
+[29-Dec-2015 15:39:01 Asia/Calcutta] PHP   3. Store->getPortletWallpapers() C:\wamp\www\PortletPublish_php\store\views\portlets\portlet4.php:19
+[29-Dec-2015 15:45:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 15:51:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 16:21:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 16:35:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 16:46:52 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Could not resolve host: api.wurflcloud.com' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__constr in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 16:46:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Could not resolve host: api.wurflcloud.com' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\Device\Device->__constr in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 17:06:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[29-Dec-2015 17:14:19 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(102): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(72): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78

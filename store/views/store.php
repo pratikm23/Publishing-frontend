@@ -47,7 +47,7 @@
 	
 	$USERSTATUS = $storeObj->userStatus;
 	 // $USERSTATUS = $storeObj->$userStatus;
-	 
+	 $USERSTATUS = "SUBSCRIBED";
 	$PROMOID = $storeObj->promoId;
 	$LINKURL = $storeObj->linkUrl;
 	$SUBPARAM = $storeObj->subParam;
