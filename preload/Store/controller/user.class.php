@@ -106,9 +106,9 @@ class User {
 		  if($this->isAllowed == 'true' ){
 			//get user details
 			//		$this->setUserProfileDetails();
-
+			
 			$this->setUserDetails();
-			$this->setUniqueSessionId();
+		  	
 			$this->setRefferer();
 			$this->setDeviceDetails();
 			$this->setLogData();
@@ -154,7 +154,6 @@ class User {
 			//'config' => $this->config
  		);
 		$this->deviceDetails = new Device\Device($data);
-		
 		if( $this->msisdn != self::UNKNOWN && $this->msisdn != '' && $this->msisdn != null && $this->operator != self::UNKNOWN ) {
 			$this->deviceDetails->setIMSIContent();
 		}
@@ -185,7 +184,7 @@ class User {
 		);
 
 		$this->campaignDetails = new Campaign\Campaign($data);
-	//	echo "<pre>"; print_r($this->campaignDetails);
+		// echo "<pre>"; print_r($this->campaignDetails);
 	}
 
 	private function setPromoTransactionCookie(){
@@ -287,7 +286,10 @@ class User {
 	}
 
 	private function setUserDetails(){
+		
 		$extractInfo = $this->getMsisdnDetails();
+		// print_r($extractInfo);
+		// exit;
 		// Set authService Response for log purpose
 		$this->response = $extractInfo['Content'];
 
@@ -296,7 +298,10 @@ class User {
 			exit();
 		}
 		if($extractInfo['Response']['user_id'] != 0){
+			
 			$this->userId = $extractInfo['Response']['user_id'];
+			// print_r($this->userId);
+			// exit;
 			$this->userStatus = $extractInfo['Response']['user_status'];
 			$this->operator = $extractInfo['Response']['operator'];
 
@@ -305,21 +310,25 @@ class User {
 			}else{
 				$this->authBy = self::NOAUTH;
 			}
-
+		
 			$this->requestFrom = isset($extractInfo['Response']['servReqSource']) ? $extractInfo['Response']['servReqSource'] : self::REQUESTSOURCE;
-
+				// echo "hi";
+				// $this->userStatus;
+			
 			if($this->userStatus != self::NEWUSER && $this->userStatus != self::UNKNOWN && $this->userStatus != self::UNSUBSCRIBED ){
-				$_SESSION['downloadAllowed'] = 'true';
+				$_SESSION['downloadAllowed'] = 'true';	
 			}else{
 				$_SESSION['downloadAllowed'] = 'false';
 			}
 			//get operator and last subscribed pricepoint details
+		
+
 			if( $this->userStatus != self::NEWUSER && $this->userStatus != self::UNSUBSCRIBED && $this->userStatus != self::UNKNOWN){
 				// Logic to get current subscribed number price point
+				
 				$SubPackData['AppId'] = $this->STOREID;
 				$SubPackData['user_id'] = $this->userId;
-
-				$content = $this->curlMethods->executePostCurl(S3STATUS, $SubPackData);
+				$content = $this->curlMethods->executePostCurl(S3STATUS, $SubPackData,0);				
 
 				$outputSubPack = json_decode($content['Content'], true);
 				//echo "<pre>"; print_r($outputSubPack);
@@ -359,8 +368,8 @@ class User {
 	private function getMsisdnDetails(){
 		$extractInfo = array();
 		$this->url =  AUTH_SERVICE.'/?AppId='.$this->STOREID.'&MSISDN='.$this->msisdn.'&NET_IP_ADDRESS='.$this->clientIp.'&IMSI='.$this->imsi;
-
 		$content = $this->curlMethods->executeCurl($this->url);
+		// exit;
 
 		$temp = explode(',', $content['Content']);
 		for($i=0;$i<count($temp);$i++){

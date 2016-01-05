@@ -12,6 +12,7 @@ class Campaign {
     public $nokUrl;
 
     public function __construct($data){
+        
         $this->hostName = "http://".$_SERVER['HTTP_HOST'];
         // Promo Code
         $promoRedirect = false;
@@ -25,12 +26,14 @@ class Campaign {
         $this->config = new Config\Config();
 
         $promoParameters = $data['promoParameters'];
-
+        // echo "<pre>"; print_r($data);
         $CampaignDetails = $this->getCampaignDetails($this->PromoBannerId,Config\Config::STOREID);
         // Promo Code
         $promoRedirect = false;
         $landingUrl = '';
-        if(!empty($promoParameters) and isset($promoParameters['promo']) and $promoParameters['promo'] != '' and $promoParameters['promo'] != null and !isset($promoParameters['c']) and $this->currentPageName == 'index' and ctype_digit($promoParameters['promo']) ){
+
+        if(!empty($promoParameters) and isset($promoParameters['promo']) and $promoParameters['promo'] != '' and $promoParameters['promo'] != null and !isset($promoParameters['c'])  and ctype_digit($promoParameters['promo']) ){
+
             if(!empty($CampaignDetails)){
                 $this->price_point = (string)$CampaignDetails['cp_promo_price_point'];
                 $this->banner_id = $CampaignDetails['cp_banner_id'];
@@ -39,8 +42,10 @@ class Campaign {
 
                 if(stripos($CampaignDetails['cg_cp_nok_url'], "http://") !== false){
                     $nokUrl = $CampaignDetails['cg_cp_nok_url'];
+
                 }else{
                     $nokUrl = 'http://'.$CampaignDetails['cg_cp_nok_url'];
+                 
                 }
                 if(intval($CampaignDetails['cp_cg_direct_flag']) == 1 ){
                     $mobileDetails = $this->GetMsisdnDetails($this->getMsidsn());
@@ -81,6 +86,7 @@ class Campaign {
                 $this->tokenId = $this->sessionId.'-'.$this->AppId.'-0-0';
             }
         }else{
+
             if( !empty($promoParameters) and isset($promoParameters['c']) and $promoParameters['c'] == '1' and ctype_digit($promoParameters['promo'])  ) {
                 if(!empty($CampaignDetails)){
                     $this->tokenId = $this->sessionId.'-'.$this->AppId.'-'.$this->PromoBannerId.'-'.$CampaignDetails['cp_banner_id'];

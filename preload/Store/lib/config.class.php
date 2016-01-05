@@ -62,7 +62,8 @@ if (!defined('SITE_MODE')) {
  define('SITE_MODE', '1');   // 1: Test 2: Production
 }
 
-define('SVCHOST',(SITE_MODE == 1)? 'http://192.168.1.156/':'http://10.64.11.170/'); //fuse api excluding billing
+// define('SVCHOST',(SITE_MODE == 1)? 'http://192.168.1.156/':'http://10.64.11.170/'); //fuse api excluding billing
+define('SVCHOST',(SITE_MODE == 1)? 'http://wakau.in/':'http://10.64.11.170/'); //fuse api excluding billing
 define('BILLINGHOST',(SITE_MODE == 1)? 'http://192.168.1.156/':'http://10.64.12.132/'); // biling api
 
 define('BILLING', 'http://192.168.1.156/billing/servicereq');

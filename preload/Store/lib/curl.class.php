@@ -17,15 +17,18 @@ class Curl {
         );
     }
 
-    public function executePostCurl($url, $data){
+    public function executePostCurl($url, $data, $isJSON = 1){
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, count($data));
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        if($isJSON == 1 ){
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array(
              'Content-Type: application/json'
             ));
+        }
+        
         $content = curl_exec($ch);
         $getCurlInfo = curl_getinfo($ch);
         $curlError = curl_error($ch);

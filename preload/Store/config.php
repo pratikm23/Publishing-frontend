@@ -8,8 +8,7 @@ include_once('controller\device.class.php');
 include_once('controller\campaign.class.php');
 include_once('controller\logger.class.php'); 
 
-include_once "controller/direct2CG.controller.php";
-
+// include_once "controller/direct2CG.controller.php";
 use Store\User as User;
 use Store\Device as Device;
 use Store\Config as Config;
@@ -18,12 +17,14 @@ use Store\Campaign as Campaign;
 use Store\Logger as Logger;
 
 $user = new User\User();
+$campaignDetails = new Campaign\Campaign();
 
 $promo = $user->PromoBannerId;
 $userStatus = $user->getUserStatus();
+
 // $userStatus = "SUBSCRIBED";
-// $userId = $user->getUserId();
-$userId=2761661;
+$userId = $user->getUserId();
+// $userId=2761661;
 
 
 $operator = $user->getOperator();
@@ -34,6 +35,8 @@ $OprSubParam = $user->getOperatorSubscribeParam($operator);
 $TransId = $user->getTransId();
 $Token = $user->getToken();
 $deviceInfo = $user->getDeviceSize();
+
+
 $mobileInfo = $user->getMobileInfo();
 
 
@@ -46,6 +49,8 @@ $config = $user->getConfigData();
 $currentPage = $user->getCurrentPage();
 $hostName = $user->hostName;
 $linkUrl =$user->getLinkUrl();
+
 $subParam = $user->getSubParam();
+
 
 ?>

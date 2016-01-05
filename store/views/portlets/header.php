@@ -11,9 +11,9 @@
 	            margin: 0;
 	            padding: 0;
 	            overflow: hidden;">
-	    <li  style="float: left;background: #5d3b6e; width:<?=$search_width?>%; height:30px; padding-top: 6px;" align="center"><a href="?pg=home.php" style="text-decoration:none; color:#fff;">Home</a></li>
-	    <li  style="float: left;background: #5d3b6e;width: <?=$search_width?>%;height:30px; padding-top: 6px;" align="center"><a  href="?pg=video.php" style="text-decoration:none; color:#fff;">Videos</a></li>
-	    <li  style="float: left;background: #5d3b6e;width: <?=$search_width?>%;height:30px; padding-top: 6px;" align="center"><a href="?pg=photos.php" style="text-decoration:none; color:#fff;">Photos</a></li>
+	    <li  style="float: left;background: #5d3b6e; width:<?=$search_width?>%; height:30px; padding-top: 6px;" align="center"><a href="store.php?pg=home.php" style="text-decoration:none; color:#fff;">Home</a></li>
+	    <li  style="float: left;background: #5d3b6e;width: <?=$search_width?>%;height:30px; padding-top: 6px;" align="center"><a  href="store.php?pg=video.php" style="text-decoration:none; color:#fff;">Videos</a></li>
+	    <li  style="float: left;background: #5d3b6e;width: <?=$search_width?>%;height:30px; padding-top: 6px;" align="center"><a href="store.php?pg=photos.php" style="text-decoration:none; color:#fff;">Photos</a></li>
 		<?php 
 			if($USERSTATUS != 'NEWUSER' && $USERSTATUS != 'UNKNOWN' && $USERSTATUS != 'UNSUBSCRIBED' ){
 		?>
@@ -26,7 +26,7 @@
 				if(isset($_GET['search']) && $_GET['search'] == true){
 		?>
 				<br/> 
-				<form method="get">
+				<form method="get" action="search.php">
 					<input type="hidden" name="pg" value="home.php"/>
 					<input type="hidden" name="search" value="true"/>
 					<input type="text" name="search_txt" />

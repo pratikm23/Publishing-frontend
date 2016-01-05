@@ -9,7 +9,7 @@ $siteAuthor = '';
 
 $includeCustomCss = null;
 $includeCustomJs = null;
-// echo $userStatus;
+
 // echo S3STATUS;
 
 if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNSUBSCRIBED' ){
@@ -19,17 +19,22 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 	$data['user_id'] = $userId;
 
 	$serviceUrl = S3STATUS;
+	// echo  $serviceUrl;
+	// exit;
     $curlObj = new Curl\Curl();
-    $output = $curlObj->executePostCurl($serviceUrl,$data);
-		
+    // print_r($data);
+    $output = $curlObj->executePostCurl($serviceUrl,$data,0);
+    
 	$output = json_decode($output['Content'], true);
+	
+ 	
 
-	if(!empty($output)){
 
+	if(!empty($output)){		
 		if($output['status'] != 'UNSUBSCRIBED'){
 			$opr = $output['operator'];
-			$cpevent = $output['price_point'];			
-		
+			$cpevent = $output['price_point'];		
+
 			if( in_array($opr, $config->allowedOperators) ){							
 				$current_url = BILLINGHOST.$config->operatorData[$opr]['BillingServiceUnSub'];
 				$UnSubData['REQUESTTYPE'] = 'UNSUB';
@@ -42,6 +47,7 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 				$UnSubData['PASS'] = ($config::Paswd);
 				
 				$UnSubData['APPCONTID'] = 123;
+
 				$UnSubData['TRANSID'] = $TransId;
 				$UnSubData['UNITTYPE'] = 'UNSUBSCRIPTION';
 				$UnSubData['RETURL'] = 'success.php';
@@ -57,7 +63,10 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 				
 				$pString = rtrim($pString, '&');
 				
+
+			
 				$u=$curlObj->executePostCurlHeader($current_url,1,$pString);
+
 
 			
 				$Data = array(
@@ -69,12 +78,12 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 					'CMode' => $operator,
 					'Fail Return url' => $ErrorUrl,
 					'CMODE'=> $cmode
-			
-		           );
+		        );
 					//log files to be theres										
 				
+
 				$headers = get_headers_from_curl_response($u['Content']);
-				//print_r($headers);
+				// print_r($headers);
 				
 			}
 			//include 'header.php';

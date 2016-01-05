@@ -3074,3 +3074,70 @@
 [23-Dec-2015 11:22:16 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 102
 [23-Dec-2015 11:22:16 Europe/Paris] PHP Stack trace:
 [23-Dec-2015 11:22:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 07:44:07 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 103
+[05-Jan-2016 07:44:07 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 07:44:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 07:50:02 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 73
+[05-Jan-2016 07:50:02 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 07:50:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 66
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:66
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 67
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:67
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 69
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:27:01 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:69
+[05-Jan-2016 12:27:02 Asia/Calcutta] PHP Fatal error:  Cannot use object of type Store\Config\Config as array in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 17
+[05-Jan-2016 12:27:02 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:27:02 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 07:59:56 Europe/Paris] PHP Fatal error:  Class 'User\User' not found in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 16
+[05-Jan-2016 07:59:56 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 07:59:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Warning:  include_once(../../preload/Store/controller/config.php): failed to open stream: No such file or directory in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 15
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Warning:  include_once(): Failed opening '../../preload/Store/controller/config.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 15
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 95
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Notice:  Undefined variable: mobileInfo in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 96
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:96) in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 143
+[05-Jan-2016 08:00:46 Europe/Paris] PHP Stack trace:
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 08:00:46 Europe/Paris] PHP   2. header() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:143
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Notice:  Constant SVCHOST already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 66
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:66
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Notice:  Constant BILLINGHOST already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 67
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:67
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Notice:  Constant BILLING already defined in C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php on line 69
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   2. include_once() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:15
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   3. include_once() C:\wamp\www\PortletPublish_php\preload\Store\config.php:5
+[05-Jan-2016 12:31:04 Asia/Calcutta] PHP   4. define() C:\wamp\www\PortletPublish_php\preload\Store\lib\config.class.php:69
+[05-Jan-2016 12:31:05 Asia/Calcutta] PHP Fatal error:  Cannot use object of type Store\Config\Config as array in C:\wamp\www\PortletPublish_php\store\views\download_cloud.php on line 17
+[05-Jan-2016 12:31:05 Asia/Calcutta] PHP Stack trace:
+[05-Jan-2016 12:31:05 Asia/Calcutta] PHP   1. {main}() C:\wamp\www\PortletPublish_php\store\views\download_cloud.php:0

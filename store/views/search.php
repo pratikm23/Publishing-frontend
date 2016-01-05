@@ -37,8 +37,9 @@
 	$PROMOID = $searchObj->promoId;
 	$LINKURL = $searchObj->linkUrl;
 	$SUBPARAM =$searchObj->subParam;
-	//$SEARCHTXT = isset($_GET['search_txt']) ? $_GET['search_txt'] :'';
-	$SEARCHTXT = "a";
+	$SEARCHTXT = isset($_GET['search_txt']) ? $_GET['search_txt'] :'';
+	
+	// $SEARCHTXT = "a";
 ?>
 	<div style="text-align:center">
 			<img src="../../public/assets/img/d2clogo_320x45.png" />
@@ -51,11 +52,13 @@
 		$portletArray_wallpaper = $searchObj->getPortletFilteredContent($SEARCHTXT,8);
 	?>
 
+<?php if(sizeof($portletArray_video) > 0 ) { ?>
 	<div style="height: 30px;
 	    background: #ccc;
 	     padding-top: 6px;">
 	    <h5 style="margin-top: 7px;">Videos</h5>
 	</div>
+<?php } ?>
 	<table width="90%" style="margin-top:20px" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
 	<?php 
@@ -111,11 +114,13 @@
 	        </td>
     	</tr>
 	</table>
-	<div style="height: 30px;
-	    background: #ccc;
-	     padding-top: 6px;">
-	    <h5 style="margin-top: 7px;">Photos</h5>
-	</div>
+	<?php if(sizeof($portletArray_wallpaper) > 0 ) { ?>
+		<div style="height: 30px;
+		    background: #ccc;
+		     padding-top: 6px;">
+		    <h5 style="margin-top: 7px;">Photos</h5>
+		</div>
+	<?php } ?>
 	<table width="90%" style="margin-top:20px" border="0" align="center" cellpadding="0" cellspacing="0">
 	    <tr>
 		<?php 

@@ -30,6 +30,7 @@ class Device {
 
     function __construct($userData = array()) {
         $this->config = new Config\Config();
+       
         $this->curlMethods = new Curl\Curl();
 
         $this->CookieTag = Config\Config::CookieTag;
@@ -81,9 +82,9 @@ class Device {
         $deviceInfo = array(
             'agent_id' => $this->agentId
         );
-        //echo "<pre>"; print_r($deviceInfo); exit();
+        // echo "<pre>"; print_r($deviceInfo); exit();
         $deviceInfoResponse =  (object)$this->curlMethods->executePostCurl(READ_WURFL_DATA, $deviceInfo);
-
+        // echo "<pre>"; print_r($deviceInfoResponse); exit();
         $this->deviceDetails = json_decode($deviceInfoResponse->Content, true);
         // echo "deviceInfo1 <pre>"; print_r($this->deviceDetails); exit;
 

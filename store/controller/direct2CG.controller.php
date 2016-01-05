@@ -38,6 +38,7 @@ use Store\Curl as Curl;
 				header("Location: ".$fUrl);
 				exit();
 			}else{
+
 				$logCmode = $OprSubParam['CMODE'];
 
 				if( isset($row['cp_cg_image_path']) and $row['cp_cg_image_path'] != null and $row['cp_cg_image_path'] != '' ){
@@ -74,7 +75,9 @@ use Store\Curl as Curl;
 				}
 			}
 		}else{
+
 			if( empty($OprSubParam) ){
+						
 				header("Location: ".$fUrl);
 				exit();
 			}else{
@@ -117,7 +120,7 @@ use Store\Curl as Curl;
 
 	}
 	public function getUrlFromParams(){
-		echo $this->currentPage;
+		
 		if($this->currentPage == 'home'){
 			$retUrl = 'http://dailymagic.in/index.php';
 		}elseif($this->currentPage  == 'video'){
@@ -191,15 +194,15 @@ use Store\Curl as Curl;
 
 
 
-	public function getNOKUrl($row){
-        if(stripos($row['cg_cp_nok_url'], "http://") !== false){
-						$fUrl = $row['cg_cp_nok_url'];
-			}else{
-						$fUrl = 'http://'.$row['cg_cp_nok_url'];	
-			}
+	// public function getNOKUrl($row){
+ //        if(stripos($row['cg_cp_nok_url'], "http://") !== false){
+	// 					$fUrl = $row['cg_cp_nok_url'];
+	// 		}else{
+	// 					$fUrl = 'http://'.$row['cg_cp_nok_url'];	
+	// 		}
 
-          return $fUrl;
-        }
+ //          return $fUrl;
+ //        }
     public function getImageUrl($row,$OprSubParam){
 
         if( isset($row['cp_cg_image_path']) and $row['cp_cg_image_path'] != null and $row['cp_cg_image_path'] != '' ){

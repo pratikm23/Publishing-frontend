@@ -10,7 +10,6 @@ $includeCustomCss = null;
 $includeCustomJs = null;
 
 //include 'header.php';
-
 if($userStatus == 'NEWUSER' || $userStatus == 'UNKNOWN' || $userStatus == 'UNSUBSCRIBED' ){ 	
 	header("Location: ".$linkUrl);
 }	

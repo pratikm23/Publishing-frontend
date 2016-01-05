@@ -1,13 +1,19 @@
 <?php
 #userstatus -> NEWUSER || UNSUBSCRIBED
 require_once '../../preload/Store/config.php';
+// include_once('../preload/controller/user.class.php');
+include_once '../controller/direct2CG.controller.php';
 use Store\Direct2CG as Direct2CG;
+use Store\Campaign as Campaign;
+// use Store\User as User;
 //get config parameters;
 $t = $_GET['t'];
 $n = $_GET['n'];
 $d = $_GET['d'];
 $m = $_GET['m'];
 $i = isset($_GET['i']) ? $_GET['i'] : null;
+
+
 
 $f = (isset($extractParams['f']))?$extractParams['f']:$currentPage;
 $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
@@ -17,16 +23,29 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
 		exit();
 	}else{
+
 		$direct2cg = new Direct2CG\direct2cg($promo, $f);
+		// $campaignDetails = new Campaign\Campaign();
+		// $user->setCapaignDetails();
 
 		$image_url = $direct2cg->getCGimages();
 
 		$retUrl = $direct2cg->getUrlFromParams();
 
-		/*$fUrl = $campaignDetails->getNOKUrl();
-		$retUrl = $campaignDetails->getLandingUrl();
-		$price_point = $campaignDetails->getPromoPricePoint();
-		$bannerId = $campaignDetails->getPromoBannerId();*/
+		
+
+		// print_r($campaignDetails);
+
+		// echo $fUrl;
+		// print_r($hostName);
+
+		if(stripos($hostName, "http://") !== false){
+   			$fUrl = $hostName.'/error.php';   
+ 		 }else{
+   			$fUrl = 'http://'.$hostName.'/error.php';   
+  		 }
+
+		// echo $price_point;
         if( isset($t) and isset($n) and isset($d) and isset($m) ){
 			$n1 = base64_decode($n);
 			if($i == null){
@@ -40,7 +59,11 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		if(!(!empty($promo) and isset($promo) and $promo != '' and $promo != null and ctype_digit($promo))){
 			$checkPromoId = explode("_",$promo);
 			//echo "<pre>"; print_r($checkPromoId);
-			if($checkPromoId[0] === 'z'){
+			if($checkPromoId[0] != 'z'){
+				$fUrl = $campaignDetails->getNOKUrl();
+				$retUrl = $campaignDetails->getLandingUrl();
+				$price_point = $campaignDetails->getPromoPricePoint();
+				$bannerId = $campaignDetails->getPromoBannerId();
 				$direct2cg->logBGWBanner($msisdn,$operator, $TransId,$campaignDetails,$fUrl,$retUrl,$price_point,$bannerId);
 			}
 		}else{
@@ -60,7 +83,10 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 			'extractParams' => $extractParams,
 			'promoBannerId' => $promo,
 		);
-
+		// print_r($subscribeData);
+		
+		$billing_gateway = 'http://103.43.2.5/'.$config->operatorData[$operator]['BillingServiceSub'].'?REQUESTTYPE=NEW_SUB&APPCONTID=123&UNITTYPE=SUBSCRIPTION&CPEVENT='.$price_point.'&MSISDN='.$msisdn.'&OPERATOR='.$operator.'&CMODE='.$OprSubParam['CMODE'].'&UID='.($config::UID).'&PASS='.($config::Paswd).'&TRANSID='.$TransId.'&RETURL='.$retUrl.'&FLRETURL='.$fUrl.'&OTHER1='.$image_url.'&OTHER2='.$hostName.'&TOKENCALL='.$Token;
+		
 		// $direct2cg->logSubscription($subscribeData);
 
 		// fwrite($fs, 'Success Return url:');

@@ -5,6 +5,7 @@
     $PORTLET_CONTENT_TYPE = 'Video';
     $PORTLET_RESOLUTION = 'low';
     $THUMBNAIL_LIMIT = 10;
+    $THUMBURL = "http://d85mhbly9q6nd.cloudfront.net/";
     $EACHPAGE = 4; //IN each page how many content will be displayed.
 ?>
 
@@ -40,8 +41,7 @@
 ?>		
         <td align="center">
             <a href="../<?=$SUBPARAM?>&f=home&t=<?=$value->contentTypeMD5?>&n=<?=base64_encode($storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION))?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
-            	<img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" />
-            </a>
+            	<img src="<?=$THUMBURL?><?=$value->cf_cm_id?>_thumb_125_125.jpg" width="125" height="125" alt="" /></a>
             <br />
             <?php echo $value->genre; ?>
         </td>
@@ -52,7 +52,7 @@
     
          <td align="center">
             <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION)?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
-                    <img src="http://dailymagic.in<?=$value->cft_thumbnail_img_browse?>?<?=$value->timestamp?>" width="125" height="125" alt="" /></a>
+                   <img src="<?=$THUMBURL?><?=$value->cf_cm_id?>_thumb_125_125.jpg" width="125" height="125" alt="" /></a>
             <br/>
            
             <!-- Links for medium and high res -->

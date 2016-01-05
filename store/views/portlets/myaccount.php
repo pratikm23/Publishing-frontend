@@ -60,9 +60,10 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 ?>
 	<?php if($userStatus == 'NEWUSER' || $userStatus == 'UNKNOWN' || $userStatus == 'UNSUBSCRIBED' ){  ?>
 	<tr>
-		<td height="40" align="center">			
-			<a href="<?=$linkUrl.$SubParam?>f=account">Click Here to Subscribe</a>			
-			</a>
+		<td height="40" align="center">		
+
+			<a href="../direct2CG.php?c=1&<?=$promo?>&f=account">Click Here to Subscribe</a>			
+			
 		</td>
 	</tr>
 	<?php } ?>			
@@ -163,9 +164,9 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 						?>
 						<td align="center">
 							<?php
-							$getAllFiles = explode(',',$historyPhoto[$i]['fileUrl']);
-							$tmpFile = explode('/',$getAllFiles[0]);
-							$fileName = md5($tmpFile[2]);
+								$getAllFiles = explode(',',$historyPhoto[$i]['fileUrl']);
+								$tmpFile = explode('/',$getAllFiles[0]);
+								$fileName = md5($tmpFile[2]);
 							?>
 							
 							<img src="<?=$historyPhoto[$i]['cm_thumb_url']?>?<?=$timestamp?>"  width="<?=$ThumbnailWidth?>" height="<?=$ThumbnailHeight?>" alt="" />

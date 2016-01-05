@@ -11,8 +11,12 @@ ini_set("error_log", $_SERVER['DOCUMENT_ROOT']."logs/php_error.log");
 header("access-control-allow-origin: *");
 
 // include 'site/config.inc.php';
-include '../../site/lib/bootstrap.php';
-$dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
+// include '../../site/lib/bootstrap.php';
+include '../../site/lib/Db.php';
+include_once '../../preload/Store/config.php';
+
+
+$dbCMS = new Db('root', '','icon_cms');
 $dbCon = $dbCMS->getConnection();
  // print_r($dbCon);
 // session_start();
@@ -39,6 +43,8 @@ $dbCon = $dbCMS->getConnection();
 			while($row = $resultVideo->fetch_assoc()){
 				$videos[] = $row;
 			}		
+
+	
 
 		$query_download_path = "select cd_name from catalogue_detail where cd_id=".$_GET['d']." LIMIT 1 ";
 		echo $query_download_path;
@@ -67,7 +73,6 @@ $dbCon = $dbCMS->getConnection();
 				$asset_path  = $videos[0]['cm_downloading_url'].'_240p.mp4';
 			}else{
 				$asset_path  = $videos[0]['cm_downloading_url'].'_360p.mp4';
-				
 			}
 		}else{
 			if( isset($mobileInfo['Wallpaper_Width']) and !empty($mobileInfo['Wallpaper_Width'])){
@@ -90,10 +95,10 @@ $dbCon = $dbCMS->getConnection();
 						$WallpaperWidth = '720';
 						$WallpaperHeight = '1280';
 					}else{
-						// $WallpaperWidth = $mobileInfo['Resolution_Width'];
-						// $WallpaperHeight = $mobileInfo['Resolution_Height'];
-						$WallpaperWidth = 125;
-						$WallpaperHeight = 125;
+						$WallpaperWidth = $mobileInfo['Resolution_Width'];
+						$WallpaperHeight = $mobileInfo['Resolution_Height'];
+						// $WallpaperWidth = 125;
+						// $WallpaperHeight = 125;
 					}
 				}
 			}

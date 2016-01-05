@@ -10,7 +10,7 @@ class Db{
 	// Get Connection resource object
 	public function getConnection(){
 		//function getConnection() opens here
-		$con = new mysqli(DBHOST,$this->userName,$this->password, $this->database);
+		$con = new mysqli('localhost',$this->userName,$this->password, $this->database);
 		if($con->connect_errno > 0){
 			die('Unable to connect to database [' . $con->connect_error . ']');
 		}

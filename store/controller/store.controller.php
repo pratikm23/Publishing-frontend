@@ -9,8 +9,8 @@
 			include_once "../models/store.model.php";	
 			include_once "../../site/lib/functions.php";
 			
-			// $this->userStatus = $userStatus;
-			$this->userStatus = "NEWUSER";
+			$this->userStatus = $userStatus;
+			$this->userStatus = "SUBSCRIBED";
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
@@ -119,11 +119,30 @@
 		}
 
 		public function getPortletBestseller($portletId){
+			// $arr = Array();
+			// $portletArray = $this->getPortletContent();
+			// foreach ($portletArray['portletContent'] as $key => $value) {
+
+			// 	foreach ($value->packageDetails as $packageDetail ) {
+
+			// 		if($packageDetail->cd_name == 'Wallpaper' && $portletId == $packageDetail->portletId ){
+			// 			$arr[] = $packageDetail;
+			// 		}
+			// 	}
+			// }
+			// return $arr;
+
+
+			//---
+
 			$arr = Array();
-			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
-					if(($value->cd_name == 'Video' || $value->cd_name == 'Wallpaper' ) && $portletId == $value->portletId ){
+			$portletArray = $this->getPortletContent();
+			foreach ($portletArray['portletContent'] as $key => $value) {
+				foreach ($value->packageDetails as $packageDetail ) {
+					if(($packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Wallpaper' ) && $portletId == $packageDetail->portletId ){
 						$arr[] = $value;
 					}
+				}
 			}
 			return $arr;
 		}
