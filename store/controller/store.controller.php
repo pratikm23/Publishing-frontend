@@ -30,7 +30,8 @@
 		public function getPortletContent(){
 			
 			// $url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
-			$url = "http://localhost:9090/wICONapi/web/api/v2/index.php/page/getPageDetails";
+			// $url = "http://localhost:9090/wICONapi/web/api/v2/index.php/page/getPageDetails";
+			$url = "http://192.168.1.159:9875/v3/page/getPageDetails";
 			$data = array(
 					"pageName" => $this->pageName,
 					"storeId" => $this->storeId,
@@ -38,6 +39,7 @@
 					"deviceWidth" => 200
 				 );
 			$data = json_encode($data);
+
 			// print_r($data);
 			$result_portletContent = $this->curlObj->executePostCurl($url,$data);
 
@@ -97,10 +99,8 @@
 				$arr = Array();
 				$portletArray = $this->getPortletContent();
 				foreach ($portletArray['portletContent'] as $key => $value) {
-					 
 					foreach ($value->packageDetails as $packageDetail ) {
-
-						if($packageDetail->cd_name == 'Video' && $portletId == $packageDetail->portletId ){
+						if(($packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Video Clip')  && $portletId == $packageDetail->portletId ){
 							$arr[] = $packageDetail;
 						}
 					}
