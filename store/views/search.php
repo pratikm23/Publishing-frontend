@@ -30,7 +30,7 @@
 
 	
 	$USERSTATUS = $searchObj->userStatus;
-	$USERSTATUS = "SUBSCRIBED";
+	//$USERSTATUS = "SUBSCRIBED";
 
 	 // $USERSTATUS = $storeObj->$userStatus;
 	 

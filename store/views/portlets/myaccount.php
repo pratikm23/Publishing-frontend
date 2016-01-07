@@ -1,90 +1,68 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content=" initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width" /> 
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Welcome to Daily Magic</title>
+ </head>
+ <body>
+
 <?php
-require_once '../../../preload/Store/config.php';
-use Store\Curl as Curl;
-$title = 'Welcome to Daily Magic';
-$siteDescription = '';
-$siteKeywords = '';
-$siteAuthor = '';
+include_once '../../../preload/Store/config.php';	
+include_once "../../../site/lib/functions.php";
+include_once "../../controller/download.history.controller.php";
+$historyObj = new History(); 
 
-$includeCustomCss = null;
-$includeCustomJs = null;
+$THUMBNAIL_LIMIT = 2;
+$STOREID = 1;
+$historyObj->setStoreConfigs($STOREID);
+$USERSTATUS = $userStatus;
+$PROMOID = $promo;
+$LINKURL =$linkUrl;
+$SUBPARAM= $subParam;
+$MSISDN = $msisdn;
+$USERID = $userId;
 
-//include 'header.php';
+$historyObj->setStoreConfigs($STOREID);
+$historyObj->setUserStatus($USERSTATUS);
+$historyObj->setMsisdn($MSISDN);
+$historyObj->setUserid($USERID);
 
-//Download History
-if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNSUBSCRIBED' ){ 
-	
-	// $dbSiteUser = new mysqli(DBHOST, $config['Db']['siteUser']['User'], $config['Db']['siteUser']['Password'], $config['Db']['siteUser']['Name']);
-	// 	if($dbSiteUser->connect_errno > 0){
-	// 		die('Unable to connect to database [' . $dbSiteUser->connect_error . ']');
-	// 	}
+$USERINFO = $historyObj->getUserSubscribeInfo();
+$FINALRESULT = $historyObj->getDownloadHistoryData();
 
-	// $queryHistory = "select * from content_download where cd_msisdn = ".$msisdn." and cd_user_id = ".$userId." and cd_app_id = 2 order by cd_download_date desc";
-	// $resultHistory = $dbSiteUser->query($queryHistory);
-	
-	$history = array();
+$historyVideo = $FINALRESULT['Video'];
 
-	// while($row = $resultHistory->fetch_assoc()){
-	// 	$history[] = $row;
-	// }
+//$historyPhoto = $FINALRESULT['Wallpaper'];
+ /*$historyPhoto = $historyVideo;*/
+$THUMBURL = "http://d85mhbly9q6nd.cloudfront.net/";
 
-	$historyVideo = array();
-	$historyPhoto = array();
-
-	foreach($history as $key => $value){
-		$queryContent = "select cd.cd_id, cf.cf_template_id, cm.cm_id, cm.cm_genre, cd.cd_name, cm.cm_title,cm.cm_thumb_url, group_concat(cf.cf_url) as fileUrl, cf.cf_url from catalogue_detail as cd, content_metadata as cm, content_files as cf  where cd.cd_id = ".$value['cd_cd_id']." and cm.cm_id = ".$value['cd_cmd_id']." and cf.cf_cm_id = ".$value['cd_cmd_id']." and cm.cm_vendor in (".$vendor_id.")";
-		$content = $db->query($queryContent);
-		while($row = $content->fetch_assoc()){
-			if($row['cd_name'] == 'Video'){
-				$historyVideo[] = $row;
-			}elseif($row['cd_name'] == 'Wallpaper'){
-				$historyPhoto[] = $row;
-			}	
-		}
-	}
-}
-
-$isSubscribed = false;
-if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNSUBSCRIBED' ){
-	$isSubscribed = true;
-	$data['user_id'] = $userId;
-	$data['bgw_AppID'] = '2';
-
-	$serviceUrl = USERPROFILE;
-	$curlObj = new Curl\Curl();
-	$output = $curlObj->executePostCurl($serviceUrl,$data);
-	
-	$UserSubscribeInfo = json_decode($output['Content'], true);
-	//print_r($UserSubscribeInfo );
-}
-?>
-	<?php if($userStatus == 'NEWUSER' || $userStatus == 'UNKNOWN' || $userStatus == 'UNSUBSCRIBED' ){  ?>
+//$USERSTATUS = "SUBSCRIBED";
+//isSubscribed= true;
+if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){ ?>
 	<tr>
 		<td height="40" align="center">		
 
-			<a href="../direct2CG.php?c=1&<?=$promo?>&f=account">Click Here to Subscribe</a>			
+			<a href="../direct2CG.php?c=1&<?=$PROMOID?>&f=account">Click Here to Subscribe</a>			
 			
 		</td>
 	</tr>
 	<?php } ?>			
-	<!-- 
-	<tr>
-		<td align="center"><img src="images/fb_connect.png" alt="facebook"  /></td>
-	</tr>
-	<tr>
-		<td align="center"><img src="images/g_connect.png" alt="google" /></td>
-	</tr>  
-		-->
-	<?php if( $isSubscribed == true ){  ?>
+    <?php if( $USERINFO['isSubscribed'] == true){?>
 	<tr>
 		<td>
 			<strong>My Subscriptions</strong>
-			<p>Your subscription to Daily Magic is valid upto <?=$UserSubscribeInfo[0]['sub_end_date']?></p>
-			<p>User Status: <?=$UserSubscribeInfo[0]['sub_status']?></p>
+			<p>Your subscription to Daily Magic is valid upto <?=$USERINFO['UserSubscribeInfo'][0]['sub_end_date']?></p>
+			<p>User Status: <?=$USERINFO['UserSubscribeInfo'][0]['sub_status']?></p>
 		</td>
 	</tr>
 	<?php
 	if(!empty($historyVideo)){
+
 	?>
 	<tr>
 		<td><strong>Videos</strong></td>
@@ -94,53 +72,38 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 			<table width="100%">
 				<tr>
 					<?php
-						for($i=0;$i<count($historyVideo) and $i<2;$i++){
-						?>
-						<td align="center">
-							<?php
-							$genre = getValuefromTable($db, 'catalogue_detail', 'cd_id', $historyVideo[$i]['cm_genre']);
+					    $i = 0;
+					   
+						foreach ( $historyVideo as $key => $value ) {
 							
-							$getAllFiles = explode(',',$historyVideo[$i]['fileUrl']);
-							$tmpFile = explode('/',$getAllFiles[0]);
-							$getFileName = explode('_',$tmpFile[2]);
-							$fileName = $getFileName[0];
-							$high = md5($fileName.'_640x320.mp4');
-							$medium = md5($fileName.'_240x160.mp4');
-							$low = md5($fileName.'_176x144.3gp');							
+                      	 	 if(++$i > $THUMBNAIL_LIMIT) break; //For restricting thumbnails.
 							?>
-							<img src="<?=$historyVideo[$i]['cm_thumb_url']?>?<?=$timestamp?>"  width="<?=$ThumbnailWidth?>" height="<?=$ThumbnailHeight?>" alt="" />
+						<td align="center">
+							<!--<img src="<?=$historyVideo[$i]['cm_thumb_url']?>?<?=$timestamp?>"  width="125" height="125" alt="" />-->
+							<img src="<?=$THUMBURL?><?=$value['cm_id']?>_thumb_125_125.jpg" width="125" height="125" alt="" />
 							<?php
-							if(!empty($genre)){
-								echo "<br />".$genre['cd_name']."<br />";
+							if(!empty($value['cm_genre'])){
+								echo "<br />".$value['cm_genre']."<br />";
 							} 
 							?>
 			
 						</td>
 						<?php
-						if($i % 2 == 0){
-						?>
-						<td width="10">&nbsp;</td>
-					<?php
-					}else{
-					?>
-						</tr>
-						<tr>
-					<?php	
-					}
-					}
+						
+				       }
 					?>	
       			</tr>
 				<?php
-				if(count($historyVideo) >2){
+				if(count($historyVideo) > 2){
 				?>
-      			<tr>                
-					<td height="30" colspan="3" align="right">
-						<?  //echo $linkUrl.'history_list.php?page='.$next_page = $page+1 .'&type=Video' ?>
-						<a href="<?=$linkUrl?>history.php" style="text-decoration:none;">More >></a>
-					</td>
-				</tr>
+	      			<tr>                
+						<td height="30" colspan="3" align="right">
+							<?  //echo $linkUrl.'history_list.php?page='.$next_page = $page+1 .'&type=Video' ?>
+							<a  href="../history.php" style="text-decoration:none;">More >></a>
+						</td>
+					</tr>
 				<?php
-				}
+				 }
 				?>
 			</table>
 		</td>
@@ -160,39 +123,31 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 			<table width="100%">
 				<tr>
 						<?php
-						for($i=0;$i<count($historyPhoto)and $i<2;$i++){
+						 $i = 0;
+					    
+						foreach ( $historyPhoto as $key => $value ) {
+							
+                        if(++$i > $THUMBNAIL_LIMIT) break; //For restricting thumbnails.
 						?>
 						<td align="center">
-							<?php
-								$getAllFiles = explode(',',$historyPhoto[$i]['fileUrl']);
-								$tmpFile = explode('/',$getAllFiles[0]);
-								$fileName = md5($tmpFile[2]);
-							?>
-							
-							<img src="<?=$historyPhoto[$i]['cm_thumb_url']?>?<?=$timestamp?>"  width="<?=$ThumbnailWidth?>" height="<?=$ThumbnailHeight?>" alt="" />
-							
+											
+							<!--<img src="<?=$historyPhoto[$i]['cm_thumb_url']?>?<?=$timestamp?>"  width="125" height="125" alt="" />-->
+							<img src="<?=$THUMBURL?><?=$value['cm_id']?>_thumb_125_125.jpg" width="125" height="125" alt="" />
 						</td>
-						<?php
-						if($i % 2 == 0){
-						?>
-						<td width="10">&nbsp;</td>
+						
+					
 					<?php
-					}else{
-					?>
-					</tr>
-					<tr>
-					<?php	
-					}
 					}
 					?>	
         			</tr>
         			<?php
-					if(count($historyPhoto) >2){
+					if(count($historyPhoto) > 2){
 					?>
+
 					<tr>                
 						<td height="30" colspan="3" align="right">
 							<?  //echo $linkUrl.'history_list.php?page='.$next_page = $page+1 .'&type=Photos' ?>
-							<a href="<?=$linkUrl?>history.php" style="text-decoration:none;">More >></a>
+							<a href="../history.php" style="text-decoration:none;">More >></a>
 						</td>
 					</tr>
 					<?php
@@ -344,8 +299,8 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 	</tr>
 	<tr>
 		<td height="40" align="center">
-			<?php if($userStatus == 'NEWUSER' || $userStatus == 'UNKNOWN' || $userStatus == 'UNSUBSCRIBED' ){  ?>			
-			<?php }elseif($userStatus != 'PENDING'){ ?>
+			<?php if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){  ?>			
+			<?php }elseif($USERSTATUS != 'PENDING'){ ?>
 			<a href="../unsubscribe.php">Click Here to Unsubscribe</a>
 			<?php } ?>
 			
@@ -355,3 +310,5 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 <?php
 //include 'footer.php';
 ?>
+</body>
+ </html>

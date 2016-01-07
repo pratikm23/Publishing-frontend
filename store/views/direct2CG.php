@@ -17,6 +17,7 @@ $i = isset($_GET['i']) ? $_GET['i'] : null;
 
 $f = (isset($extractParams['f']))?$extractParams['f']:$currentPage;
 $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
+
 $price_point = (isset($extractParams['EventId']) and $extractParams['EventId'] != '' and $extractParams['EventId'] != null)? base64_decode($extractParams['EventId']): $OprSubParam['CPEVENT'];
 if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	if( !in_array($operator, $config->allowedOperators) ){
@@ -37,7 +38,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		// print_r($campaignDetails);
 
 		// echo $fUrl;
-		// print_r($hostName);
+		 //print_r($hostName);
 
 		if(stripos($hostName, "http://") !== false){
    			$fUrl = $hostName.'/error.php';   
@@ -58,7 +59,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		//if(!empty($extractParams) and isset($extractParams['promo']) and $extractParams['promo'] != '' and $extractParams['promo'] != null and ctype_digit($extractParams['promo'])){
 		if(!(!empty($promo) and isset($promo) and $promo != '' and $promo != null and ctype_digit($promo))){
 			$checkPromoId = explode("_",$promo);
-			//echo "<pre>"; print_r($checkPromoId);
+			
 			if($checkPromoId[0] != 'z'){
 				$fUrl = $campaignDetails->getNOKUrl();
 				$retUrl = $campaignDetails->getLandingUrl();
@@ -83,41 +84,13 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 			'extractParams' => $extractParams,
 			'promoBannerId' => $promo,
 		);
-		// print_r($subscribeData);
+		
 		
 		$billing_gateway = 'http://103.43.2.5/'.$config->operatorData[$operator]['BillingServiceSub'].'?REQUESTTYPE=NEW_SUB&APPCONTID=123&UNITTYPE=SUBSCRIPTION&CPEVENT='.$price_point.'&MSISDN='.$msisdn.'&OPERATOR='.$operator.'&CMODE='.$OprSubParam['CMODE'].'&UID='.($config::UID).'&PASS='.($config::Paswd).'&TRANSID='.$TransId.'&RETURL='.$retUrl.'&FLRETURL='.$fUrl.'&OTHER1='.$image_url.'&OTHER2='.$hostName.'&TOKENCALL='.$Token;
-		
+		print_r($billing_gateway);
 		// $direct2cg->logSubscription($subscribeData);
 
-		// fwrite($fs, 'Success Return url:');
-		// fwrite($fs, $retUrl);
-		// fwrite($fs, "\r\n");
-
-		// fwrite($fs, 'Fail Return-. url:');
-		// fwrite($fs, $fUrl);
-		// fwrite($fs, "\r\n");
-
-		// fwrite($fs, 'CPEVENT:');
-		// fwrite($fs, $price_point);
-		// fwrite($fs, "\r\n");
-
-		// fwrite($fs, 'CMODE:');
-		// fwrite($fs, $logCmode);
-		// fwrite($fs, "\r\n");
-
-		// fwrite($fs, 'CP IMAGE:');
-		// fwrite($fs, $image_url);
-		// fwrite($fs, "\r\n");
-
-		// fwrite($fs, 'Token:');
-		// fwrite($fs, $Token);
-		// fwrite($fs, "\r\n");
-
-
-		// fwrite($fs, 'Sub Url:');
-		// fwrite($fs, $billing_gateway);
-		// fwrite($fs, "\r\n");
-		// fclose($fs);
+		
 
 		setcookie('D2C_promo', "", time()-3600, '/');
 		setcookie('D2C_tid', "", time()-3600, '/');
@@ -130,11 +103,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	}
 }else{
 	$checkPromoId = explode("_",$extractParams['promo']);
-	/*
-	if($checkPromoId[0] != 'z'){
-		header("Location: http://wakau.in/Wakau/celebritySubscribe/");
-		exit();
-	}else{*/
+	print_r($checkPromoId);
 	if( $USERSTATUS == 'UNKNOWN' ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
 		exit();

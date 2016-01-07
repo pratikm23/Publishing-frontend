@@ -22,7 +22,7 @@ $campaignDetails = new Campaign\Campaign();
 $promo = $user->PromoBannerId;
 $userStatus = $user->getUserStatus();
 
-// $userStatus = "SUBSCRIBED";
+ $userStatus = "SUBSCRIBED";
 $userId = $user->getUserId();
 // $userId=2761661;
 

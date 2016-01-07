@@ -10,7 +10,7 @@
 			include_once "../../site/lib/functions.php";
 			
 			$this->userStatus = $userStatus;
-			$this->userStatus = "SUBSCRIBED";
+			//$this->userStatus = "SUBSCRIBED";
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
@@ -30,7 +30,8 @@
 		public function getPortletContent(){
 			
 			// $url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
-			$url = "http://localhost:9090/wICONapi/web/api/v2/index.php/page/getPageDetails";
+			//$url = "http://localhost:81/wICONapi/web/api/v2/index.php/page/getPageDetails";
+			$url = "http://192.168.1.159:9875/v3/page/getPageDetails";
 			$data = array(
 					"pageName" => $this->pageName,
 					"storeId" => $this->storeId,
@@ -100,7 +101,7 @@
 					 
 					foreach ($value->packageDetails as $packageDetail ) {
 
-						if($packageDetail->cd_name == 'Video' && $portletId == $packageDetail->portletId ){
+						if( ( $packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Video Clip' ) && $portletId == $packageDetail->portletId ){
 							$arr[] = $packageDetail;
 						}
 					}

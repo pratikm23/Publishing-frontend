@@ -177,13 +177,13 @@ use Store\Curl as Curl;
 		}
 		return $image_url;
 	}
-    public function getUserStatus(){
-		return "UNSUBSCRIBED";
-		}
+  //   public function getUserStatus(){
+		// return "UNSUBSCRIBED";
+		// }
 
-    public function getPromo(){
-       	$this->promo = "";
-		}
+  //   public function getPromo(){
+  //      	$this->promo = "";
+		// }
 
 	public function random_video($dir = 'video'){
 		$files = glob($dir . '/*.*');
