@@ -1,3 +1,19 @@
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @nishtha-gupta
+ Unwatch 3
+  Star 0
+  Fork 0 pratikm23/Publishing-frontend
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathPublishing-frontend/store/controller/store.controller.php
+93362ab  a day ago
+@pratikm23 pratikm23 changes api with staging changed
+1 contributor
+RawBlameHistory     206 lines (166 sloc)  5.95 KB
 <?php
 	use Store\Curl as Curl;
 	class Store {
@@ -10,18 +26,14 @@
 			include_once "../../site/lib/functions.php";
 			
 			$this->userStatus = $userStatus;
-			//$this->userStatus = "SUBSCRIBED";
+			$this->userStatus = "SUBSCRIBED";
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
-
 			$this->curlObj = new Curl\Curl();
-
 			// $dbCMS = new Db($config['Db']['icon_cms']['User'], $config['Db']['icon_cms']['Password'],$config['Db']['icon_cms']['Name']);
-
 			// $this->dbCon = $dbCMS->getConnection();
 		}
-
 		public function setStoreConfigs($pageName,$storeId){
 			$this->pageName = $pageName;
 			$this->storeId = $storeId;
@@ -30,7 +42,7 @@
 		public function getPortletContent(){
 			
 			// $url = "http://localhost:9090/wICONapi/web/api/v1/index.php/pages/pageDetails";
-			//$url = "http://localhost:81/wICONapi/web/api/v2/index.php/page/getPageDetails";
+			// $url = "http://localhost:9090/wICONapi/web/api/v2/index.php/page/getPageDetails";
 			$url = "http://192.168.1.159:9875/v3/page/getPageDetails";
 			$data = array(
 					"pageName" => $this->pageName,
@@ -41,11 +53,9 @@
 			$data = json_encode($data);
 			// print_r($data);
 			$result_portletContent = $this->curlObj->executePostCurl($url,$data);
-
 			// print_r(json_decode($result_portletContent['Content'])->message->potletMapDetails);
 			// exit;
 			// print_r($result_portletContent);
-
 			// $result_packageids = getPackageIdsByPageName($this->dbCon,$this->pageName,$this->storeId);
 			// $packageIds = Array();
 			$portlet = Array();
@@ -53,11 +63,9 @@
 			$portlet['portletData'] = json_decode($result_portletContent['Content'])->message->potletMapDetails;
 			$portlet['portletContent'] = json_decode($result_portletContent['Content'])->message->portletDetails;
 			
-
 			// 	if($res['packageId'] > 0)
 			// 		$packageIds[] = $res['packageId'];
 			// }
-
 			// $result_portletContent = getPortletContentByPackageId($this->dbCon,$packageIds);
 		
 			/*while( $res = $result_portletContent->fetch_assoc()){
@@ -67,14 +75,11 @@
 			// exit;
 			return $portlet;
 		}
-
 		public function getPortletWallpapers($portletId){
 			$arr = Array();
 			$portletArray = $this->getPortletContent();
 			foreach ($portletArray['portletContent'] as $key => $value) {
-
 				foreach ($value->packageDetails as $packageDetail ) {
-
 					if($packageDetail->cd_name == 'Wallpaper' && $portletId == $packageDetail->portletId ){
 						$arr[] = $packageDetail;
 					}
@@ -82,7 +87,6 @@
 			}
 			return $arr;
 		}
-
 		public function getPortletWallpapersBySearchKeywords($portletId){
 			$arr = Array();
 			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
@@ -93,22 +97,18 @@
 			}
 			return $arr;
 		}	
-
 		public function getPortletVideos($portletId){
 				$arr = Array();
 				$portletArray = $this->getPortletContent();
 				foreach ($portletArray['portletContent'] as $key => $value) {
-					 
 					foreach ($value->packageDetails as $packageDetail ) {
-
-						if( ( $packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Video Clip' ) && $portletId == $packageDetail->portletId ){
+						if(($packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Video Clip')  && $portletId == $packageDetail->portletId ){
 							$arr[] = $packageDetail;
 						}
 					}
 				}
 			  return $arr;
 		}
-
 		public function getPortletVideosBySearchKeywords($portletId){
 			$arr = Array();
 			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
@@ -118,24 +118,18 @@
 			}
 			return $arr;
 		}
-
 		public function getPortletBestseller($portletId){
 			// $arr = Array();
 			// $portletArray = $this->getPortletContent();
 			// foreach ($portletArray['portletContent'] as $key => $value) {
-
 			// 	foreach ($value->packageDetails as $packageDetail ) {
-
 			// 		if($packageDetail->cd_name == 'Wallpaper' && $portletId == $packageDetail->portletId ){
 			// 			$arr[] = $packageDetail;
 			// 		}
 			// 	}
 			// }
 			// return $arr;
-
-
 			//---
-
 			$arr = Array();
 			$portletArray = $this->getPortletContent();
 			foreach ($portletArray['portletContent'] as $key => $value) {
@@ -147,9 +141,7 @@
 			}
 			return $arr;
 		}
-
        
-
 		public function getDifferentFileNames($fileUrl,$contentType,$resolution){
 			$getAllFiles = explode(',',$fileUrl);
 	        $tmpFile = explode('/',$getAllFiles[0]);
@@ -174,30 +166,24 @@
 				       		break;
 			       }
 	        }
-
 	        if($contentType == 'Wallpaper'){
 	        	$fileName = md5($tmpFile[2]);
 	        	return $fileName;
 	        }
 	     
 		}
-
 		// public function getGenreName($genreId){
 		// 	$genreName = getValuefromTable($this->dbCon, 'catalogue_detail', 'cd_id', 22);
 		// 	return "GLAMOUR";
 		// }
-
 		// public function getUserStatus(){
 		
 				
 		// 	return $this->userStatus;
 		// }
-
-
 		// public function getPromoId(){
 		// 	return  'z_'.uniqid();
 		// }
-
 		public function contentPagination($arr,$startFrom,$eachPage){
 			 $allContent = $arr;
 			 $allContent = array_slice($allContent,$startFrom,$eachPage);
@@ -205,3 +191,5 @@
 		}
 	}
 ?>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
