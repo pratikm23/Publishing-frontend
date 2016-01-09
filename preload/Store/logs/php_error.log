@@ -1,0 +1,288 @@
+[08-Jan-2016 12:12:45 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 13:27:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 13:36:43 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 15:28:45 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 15:52:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 15:54:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:37:45 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:37:50 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1498 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:37:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:38:02 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:38:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:38:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:38:25 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1498 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:18 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:26 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:27 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:34 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:38 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:46 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 17:39:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:19:47 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:19:55 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:20:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:20:36 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:21:01 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:24:41 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:38:45 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1514 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:39:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:39:58 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:42:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:42:50 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1498 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:42:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:43:00 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:43:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1497 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:43:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[08-Jan-2016 18:43:23 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Resolving timed out after 1513 milliseconds' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\user.class.php(156) in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[09-Jan-2016 10:24:02 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78
+[09-Jan-2016 12:18:00 Asia/Calcutta] PHP Fatal error:  Call to undefined function isMore() in C:\xampp\htdocs\Publishing-frontend\store\views\portlets\portlet11.php on line 74
+[09-Jan-2016 12:27:43 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1014 milliseconds with 0 bytes received' in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
+#1 C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
+#2 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
+#3 C:\xampp\htdocs\Publishing-frontend\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
+#4 C:\xampp\htdocs\Publishing-frontend\preload\Store\controll in C:\xampp\htdocs\Publishing-frontend\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78

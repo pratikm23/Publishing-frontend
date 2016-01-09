@@ -7,7 +7,6 @@
     $THUMBNAIL_LIMIT = 10;
     $THUMBURL = "http://d85mhbly9q6nd.cloudfront.net/";
     $EACHPAGE = 4; //IN each page how many content will be displayed.
-
 ?>
 
 <div style="height: 30px;
@@ -26,7 +25,7 @@
      if(isset($_GET['startFrom'])){
          $startFrom = $_GET['startFrom'] * $EACHPAGE;
      }
-    
+    //print_r(count($storeObj->getPortletWallpapers($CURRENT_PORTLETID)));
      //FOR PAGINATION
     $allWallpapers = $storeObj->contentPagination($storeObj->getPortletWallpapers($CURRENT_PORTLETID),$startFrom,$EACHPAGE);
      
@@ -72,11 +71,15 @@
                 <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
                 }else{
-
+                    //For hiding more link :
+                   $isMoreContent= $storeObj->isMore($storeObj->getPortletWallpapers($CURRENT_PORTLETID),$_GET['startFrom']+1,$EACHPAGE);
+                   //print_r($count);
+                    if($isMoreContent) { 
             ?>
-                 <a href="?pg=photos.php&startFrom=<?=$startFrom?>" style="text-decoration:none;">More >></a>
+                 <a href="?pg=photos.php&startFrom=<?=$_GET['startFrom']+1?>" style="text-decoration:none;">More >></a>
             <?php
-                }
+                 }
+            }
             ?>
         </td>
     </tr>

@@ -47,12 +47,15 @@
             ?>
                 <a href="../<?=$SUBPARAM?>&f=home&n=<?=base64_encode(1)?>" style="text-decoration:none;">More >></a>
             <?php
-                }else{
+                }else{ 
+                    //$count= count($storeObj->getPortletWallpapers($CURRENT_PORTLETID));
+                    if(count($storeObj->getPortletWallpapers($CURRENT_PORTLETID)) > $THUMBNAIL_LIMIT) {
 
             ?>
                  <a href="?pg=photos.php" style="text-decoration:none;">More >></a>
             <?php
                 }
+            }
             ?>
         </td>
     </tr>

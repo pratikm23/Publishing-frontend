@@ -22,7 +22,7 @@ $campaignDetails = new Campaign\Campaign();
 $promo = $user->PromoBannerId;
 $userStatus = $user->getUserStatus();
 
- $userStatus = "SUBSCRIBED";
+ //$userStatus = "SUBSCRIBED";
 $userId = $user->getUserId();
 // $userId=2761661;
 
@@ -31,6 +31,7 @@ $operator = $user->getOperator();
 $clientIp = $user->getClientIp();
 $msisdn = $user->getMsisdn();
 $OprSubParam = $user->getOperatorSubscribeParam($operator);
+//print_r($OprSubParam);
 
 $TransId = $user->getTransId();
 $Token = $user->getToken();

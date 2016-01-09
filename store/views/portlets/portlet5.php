@@ -45,7 +45,7 @@
 		} // foreach
 ?>
     </tr>
-    <tr >
+    <!-- <tr >
         <td height="30" colspan="3" align="right">
             <?php 
             //TO CHANGE :: PROMO ID     
@@ -54,13 +54,15 @@
                 <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
                     }else{
+                        if(count($storeObj->getPortletVideos($CURRENT_PORTLETID)) > $THUMBNAIL_LIMIT ){
             ?>
                  <a href="?pg=bestseller.php" style="text-decoration:none;">More >></a>
             <?php
                     }
+                }
             ?>
 
         </td>
-    </tr>
+    </tr> -->
 </table>
 

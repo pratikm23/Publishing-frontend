@@ -10,7 +10,7 @@
 			include_once "../../site/lib/functions.php";
 			
 			$this->userStatus = $userStatus;
-			$this->userStatus = "SUBSCRIBED";
+			//$this->userStatus = "SUBSCRIBED";
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
@@ -171,9 +171,23 @@
 		public function contentPagination($arr,$startFrom,$eachPage){
 			 $allContent = $arr;
 			 $allContent = array_slice($allContent,$startFrom,$eachPage);
+			 // echo "<pre>";
+			 // print_r($allContent);
 			 return $allContent;
 		}
+
+		public function isMore($arr,$startFrom,$eachPage){
+			 $allContent = $arr;
+			 $startFrom = $startFrom * $eachPage;
+			 $allContent = array_slice($allContent,$startFrom,$eachPage);
+			 // echo "<pre>";
+			 // print_r($allContent);
+			 if(count($allContent) > 0){
+			 	return true;
+			 }else{
+			 	return false;
+			 }
+		}
+
 	}
 ?>
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help

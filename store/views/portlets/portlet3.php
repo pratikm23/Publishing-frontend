@@ -60,12 +60,15 @@
             ?>
                 <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
-                    }else{
+                    }else{ 
+                        
+                        if(count($storeObj->getPortletVideos($CURRENT_PORTLETID))>$THUMBNAIL_LIMIT) {
             ?>
                  <a href="?pg=video.php" style="text-decoration:none;">More >></a>
             <?php
 
                     }
+                }
             ?>
 
         </td>

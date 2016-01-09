@@ -49,7 +49,10 @@
                //  print_r($curlResult['Content']);
                // exit();
                $result = json_decode($curlResult['Content'], true);
-			   //echo "<pre>";
+			   // echo "<pre>";
+			   // print_r($result);
+			   // exit();
+			   if($result['message']['status_code'] == 200){
 
                $details = $result['message']['contentHistoryDetails'];
 			      $Video = $this->getDownloadData($details,array('Video Clip','Video','Movie'));
@@ -60,7 +63,10 @@
 						"Video"  =>$Video,
 						"Wallpaper" =>$Photo
 			           );
-			    }	
+			    }else{
+			    	print_r($result['message']['msgs']);
+			    }
+			  }	
 	        }
 	    
 
@@ -79,7 +85,7 @@
                $isSubscribed = false;
                if($this->userStatus != 'NEWUSER' and $this->userStatus != 'UNKNOWN' and $this->userStatus != 'UNSUBSCRIBED' ){
                     $isSubscribed = true;
-					$data['user_id'] = "25641";
+					$data['user_id'] = $this->userId;
 					$data['bgw_AppID'] = '2';
 
 					$serviceUrl = USERPROFILE;

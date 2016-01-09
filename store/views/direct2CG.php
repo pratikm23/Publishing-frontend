@@ -19,6 +19,7 @@ $f = (isset($extractParams['f']))?$extractParams['f']:$currentPage;
 $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
 
 $price_point = (isset($extractParams['EventId']) and $extractParams['EventId'] != '' and $extractParams['EventId'] != null)? base64_decode($extractParams['EventId']): $OprSubParam['CPEVENT'];
+
 if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	if( !in_array($operator, $config->allowedOperators) ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
@@ -103,7 +104,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	}
 }else{
 	$checkPromoId = explode("_",$extractParams['promo']);
-	print_r($checkPromoId);
+	//print_r($checkPromoId);
 	if( $USERSTATUS == 'UNKNOWN' ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
 		exit();

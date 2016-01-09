@@ -77,11 +77,16 @@
                 <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
                     }else{
+                        //For hiding more link :
+                   $isMoreContent= $storeObj->isMore($storeObj->getPortletVideos($CURRENT_PORTLETID),$_GET['startFrom']+1,$EACHPAGE);
+                   //print_r($count);
+                    if($isMoreContent) { 
             ?>
                  <a href="?pg=video.php" style="text-decoration:none;">More >></a>
             <?php
 
                     }
+                }
             ?>
 
         </td>

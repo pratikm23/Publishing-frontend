@@ -18,7 +18,7 @@ include_once '../../preload/Store/config.php';
 
 $dbCMS = new Db('root', '','icon_cms');
 $dbCon = $dbCMS->getConnection();
- // print_r($dbCon);
+ 
 // session_start();
 // $_SESSION['downloadAllowed'] = true;
 // if (!isset($_SESSION['downloadAllowed'])){

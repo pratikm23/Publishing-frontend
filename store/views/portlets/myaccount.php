@@ -26,7 +26,7 @@ $LINKURL =$linkUrl;
 $SUBPARAM= $subParam;
 $MSISDN = $msisdn;
 $USERID = $userId;
-
+//print_r($USERSTATUS);
 $historyObj->setStoreConfigs($STOREID);
 $historyObj->setUserStatus($USERSTATUS);
 $historyObj->setMsisdn($MSISDN);
@@ -34,7 +34,7 @@ $historyObj->setUserid($USERID);
 
 $USERINFO = $historyObj->getUserSubscribeInfo();
 $FINALRESULT = $historyObj->getDownloadHistoryData();
-
+//print_r($USERINFO);
 $historyVideo = $FINALRESULT['Video'];
 
 //$historyPhoto = $FINALRESULT['Wallpaper'];
@@ -55,6 +55,7 @@ if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUB
     <?php if( $USERINFO['isSubscribed'] == true){?>
 	<tr>
 		<td>
+			<br>
 			<strong>My Subscriptions</strong>
 			<p>Your subscription to Daily Magic is valid upto <?=$USERINFO['UserSubscribeInfo'][0]['sub_end_date']?></p>
 			<p>User Status: <?=$USERINFO['UserSubscribeInfo'][0]['sub_status']?></p>
