@@ -15,10 +15,13 @@ header("access-control-allow-origin: *");
 include '../../site/lib/Db.php';
 include_once '../../preload/Store/config.php';
 
-
+use Store\Curl as Curl;
 $dbCMS = new Db('root', '','icon_cms');
 $dbCon = $dbCMS->getConnection();
- 
+$curlObj = new Curl\Curl();
+
+
+ // print_r($dbCon);
 // session_start();
 // $_SESSION['downloadAllowed'] = true;
 // if (!isset($_SESSION['downloadAllowed'])){
@@ -37,22 +40,55 @@ $dbCon = $dbCMS->getConnection();
 		$cd_name =  "" ;
 		// $content_metadata_id = 2;
 				
-		$query_download_path = "select * from content_metadata where cm_id=".$content_metadata_id."";
-		$resultVideo = $dbCon->query( $query_download_path);
-		//if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
-			while($row = $resultVideo->fetch_assoc()){
-				$videos[] = $row;
-			}		
+		$url = "http://192.168.1.159:9875/v3/contentDownloadHistory/getContentMetaData";
+		$data = array(
+				"cd_cmd_id" => $content_metadata_id
+			 );
+		$data = json_encode($data);
+		$meta = $curlObj->executePostCurl($url,$data);
+
+		$meta = $meta['Content'];
+		$meta = json_decode($meta);
+		$downloadingUrl = $meta->message->contentMetaDataDetail->cm_downloading_url;
+		
+
+		$url = "http://192.168.1.159:9875/v3/contentDownloadHistory/getCatalogueDetail";
+		$data = array(
+				"cd_cd_id" => $_GET['d']
+			 );
+		$data = json_encode($data);
+		$cd_name = $curlObj->executePostCurl($url,$data);
+
+		$cd_name = $cd_name['Content'];
+		$cd_name = json_decode($cd_name);
+		
+		$cd_name = $cd_name->message->catalogueDetail->cd_name;
+		// print_r($cd_name);
+		// exit;
+
+		// $query_download_path = "select * from content_metadata where cm_id=".$content_metadata_id."";
+		// $resultVideo = $dbCon->query( $query_download_path);
+		// //if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
+		// 	while($row = $resultVideo->fetch_assoc()){
+		// 		$videos[] = $row;
+		// 	}		
 
 	
+			// $url = "http://192.168.1.159:9875/v3/contentDownloadHistory/getCatalogueDetail";
+			// $data = array(
+			// 		"cd_cd_id" => $_GET['d']
+			// 	 );
+			// $data = json_encode($data);
 
-		$query_download_path = "select cd_name from catalogue_detail where cd_id=".$_GET['d']." LIMIT 1 ";
-		echo $query_download_path;
-		$resultContentName = $dbCon->query( $query_download_path);
-		//if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
-			while($row = $resultContentName->fetch_assoc()){
-				$cd_name = $row['cd_name'];
-			}
+
+
+		// $query_download_path = "select cd_name from catalogue_detail where cd_id=".$_GET['d']." LIMIT 1 ";
+		// // echo $query_download_path;
+		// $resultContentName = $dbCon->query( $query_download_path);
+		// //if( $dbCon->getRecordsCount($resultVideo) > 0 ){		
+		// 	while($row = $resultContentName->fetch_assoc()){
+		// 		$cd_name = $row['cd_name'];
+		// 	}
 
 		
 
@@ -68,11 +104,11 @@ $dbCon = $dbCMS->getConnection();
 		
 		if($cd_name == 'Video' || $cd_name == 'Video Clip'){
 			if ($cont_reso_type == 176){
-				$asset_path  = $videos[0]['cm_downloading_url'].'.3gp';
+				$asset_path  = $downloadingUrl.'.3gp';
 			}elseif ($cont_reso_type == 240){
-				$asset_path  = $videos[0]['cm_downloading_url'].'_240p.mp4';
+				$asset_path  = $downloadingUrl.'_240p.mp4';
 			}else{
-				$asset_path  = $videos[0]['cm_downloading_url'].'_360p.mp4';
+				$asset_path  = $downloadingUrl.'_360p.mp4';
 			}
 		}else{
 			if( isset($mobileInfo['Wallpaper_Width']) and !empty($mobileInfo['Wallpaper_Width'])){
@@ -103,7 +139,7 @@ $dbCon = $dbCMS->getConnection();
 				}
 			}
 			
-			$alldmUrlParams = explode('/', $videos[0]['cm_downloading_url']);
+			$alldmUrlParams = explode('/', $downloadingUrl);
 			
 			$asset_path = $Domain.'wallpapers/'.$_GET['m'].'_'.$WallpaperWidth.'_'.$WallpaperHeight.'.'.$alldmUrlParams[5];
 		}

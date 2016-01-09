@@ -16,7 +16,8 @@
 
 
 <?php
-	
+	//include_once '../../preload/Store/config.php';
+	include_once "../../site/lib/functions.php";
 	include_once "../controller/store.controller.php";
 	// require_once('../../preload/Store/lib/config.class.php');
 	// require_once "../../preload/Store/controller/user.class.php";

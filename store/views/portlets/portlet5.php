@@ -6,12 +6,13 @@
     $THUMBNAIL_LIMIT = 3;
     $THUMBURL = "http://d85mhbly9q6nd.cloudfront.net/";
 ?>
-
+<?php if(sizeof($storeObj->getPortletVideos($CURRENT_PORTLETID)) > 0 ) {  ?>
 <div style="height: 30px;
     background: #ccc;
      padding-top: 6px;">
     <h5 style="margin-top: 7px;">Bestsellers</h5>
 </div>
+<?php } ?>
 <table width="90%" style="margin-top:20px" border="0" align="center" cellpadding="0" cellspacing="0">
 	    <tr>
 <?php 

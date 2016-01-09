@@ -1,16 +1,8 @@
 <?php
-	
-
 	include_once '../../preload/Store/config.php';	
     include_once "../../site/lib/functions.php";
-
 	include "../controller/subscription.controller.php";
-	
-
 	$subObj = new Subscription();
-	
-
-
 ?>
 		<center><strong>Subscription Packs</strong></center>
 

@@ -9,18 +9,22 @@
 ?>
 <?php
 //     echo $_GET['search_txt'];
+    if( sizeof($storeObj->getPortletVideos($CURRENT_PORTLETID)) > 0 ) {
 ?>
 <div style="height: 30px;
     background: #ccc;
      padding-top: 6px;">
     <h5 style="margin-top: 7px;">Videos</h5>
 </div>
-
+<?php
+      }
+ ?>
 <table width="90%" style="margin-top:20px" border="0" align="center" cellpadding="0" cellspacing="0">
 	    <tr>
 <?php 
 	 $i = 0;
 	 foreach ($storeObj->getPortletVideos($CURRENT_PORTLETID) as $key => $value) {
+
 	 	if(++$i > $THUMBNAIL_LIMIT) break; //For restricting thumbnails.
             if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){
 ?>		
@@ -56,6 +60,7 @@
         <td height="30" colspan="3" align="right">
             <?php 
             //TO CHANGE :: PROMO ID     
+
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){                  
             ?>
                 <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>

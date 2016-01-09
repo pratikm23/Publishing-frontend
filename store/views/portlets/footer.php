@@ -5,7 +5,7 @@
             <a href="?pg=home.php" style="text-decoration:none; color:#000;">Home</a> |
             <a href="?pg=video.php" style="text-decoration:none; color:#000;">Videos</a> |
             <a href="?pg=photos.php" style="text-decoration:none; color:#000;">Photos</a> |
-            <a href="?pg=myaccount.php" style="text-decoration:none; color:#000;">My Account</a>
+            <a href="portlets/myaccount.php" style="text-decoration:none; color:#000;">My Account</a>
         </center>
     </td>
 </tr>

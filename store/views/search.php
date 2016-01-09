@@ -81,14 +81,14 @@
 	?>
 	    
 	         <td align="center">
-	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>">
+	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>&r=176">
 	                    <img src="<?=$THUMBURL?><?=$value['cft_cm_id']?>_thumb_125_125.jpg" width="125" height="125" alt="" /></a>
 	            <br/>
 	            <?php echo $value['genre']."<br/>"; ?>
 	            <!-- Links for medium and high res -->
 	           
-	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>">High</a>
-	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>">Medium</a>
+	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>&r=360">High</a>
+	            <a href="<?=$DOWNLOADPATH?>?t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>&r=240">Medium</a>
 	        </td>
 	 <?php
 	            }//else
@@ -126,6 +126,7 @@
 		<?php 
 			 $i = 0;
 			 foreach ($portletArray_wallpaper as $key => $value) {
+			 	
 			 	// print_r($portletArray_wallpaper);
 			 	// print_r($value);
 			 	if(++$i > $THUMBNAIL_LIMIT) break; //For restricting thumbnails.
@@ -141,7 +142,7 @@
 		            }else{
 		?>
 		            <td align="center">
-		                <a href="<?=$DOWNLOADPATH?>?&t=<?=$value['contentTypeMD5']?>&m=<?=$value['cf_cm_id']?>&d=<?=$value['parentId']?>&i=<?=$value['cf_template_id']?>">
+		                <a href="<?=$DOWNLOADPATH?>?&t=<?=$value['contentTypeMD5']?>&m=<?=$value['cft_cm_id']?>&d=<?=$value['parentId']?>&i=<?=$value['cf_template_id']?>">
 		                  <img src="<?=$THUMBURL?><?=$value['cft_cm_id']?>_thumb_125_125.jpg" width="125" height="125" alt="" /></a>   
 		                <br />
 		             </td>

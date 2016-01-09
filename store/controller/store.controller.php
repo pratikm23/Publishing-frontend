@@ -2,15 +2,13 @@
 	use Store\Curl as Curl;
 	class Store {
 		public function __construct(){
-			/* Bootstrap.php includes config and db.php  */
-			// include "../../site/lib/bootstrap.php";
-			// include_once "../../preload/Store/config.php";
-			include_once '../../preload/Store/config.php';
-			include_once "../models/store.model.php";	
-			include_once "../../site/lib/functions.php";
+
+			include_once '../../preload/Store/config.php';	
+	
+			// include_once "../models/store.model.php";	
 			
 			$this->userStatus = $userStatus;
-			//$this->userStatus = "SUBSCRIBED";
+
 			$this->promoId = $promo;
 			$this->linkUrl = $linkUrl;
 			$this->subParam = $subParam;
@@ -47,6 +45,10 @@
 			$portlet['portletData'] = json_decode($result_portletContent['Content'])->message->potletMapDetails;
 			$portlet['portletContent'] = json_decode($result_portletContent['Content'])->message->portletDetails;
 			
+
+			$this->portletArray = $portlet;
+
+
 			// 	if($res['packageId'] > 0)
 			// 		$packageIds[] = $res['packageId'];
 			// }
@@ -61,8 +63,8 @@
 		}
 		public function getPortletWallpapers($portletId){
 			$arr = Array();
-			$portletArray = $this->getPortletContent();
-			foreach ($portletArray['portletContent'] as $key => $value) {
+
+			foreach ($this->portletArray['portletContent'] as $key => $value) {
 				foreach ($value->packageDetails as $packageDetail ) {
 					if($packageDetail->cd_name == 'Wallpaper' && $portletId == $packageDetail->portletId ){
 						$arr[] = $packageDetail;
@@ -71,20 +73,25 @@
 			}
 			return $arr;
 		}
-		public function getPortletWallpapersBySearchKeywords($portletId){
-			$arr = Array();
-			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
-					if($value->cd_name == 'Wallpaper' && $portletId == $value->portletId){
-						$arr[] = $value;
-					}
+
+
+
+		// public function getPortletWallpapersBySearchKeywords($portletId){
+		// 	$arr = Array();
+		// 	foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
+		// 			if($value->cd_name == 'Wallpaper' && $portletId == $value->portletId){
+		// 				$arr[] = $value;
+		// 			}
 				
-			}
-			return $arr;
-		}	
+		// 	}
+		// 	return $arr;
+		// }	
+
+
 		public function getPortletVideos($portletId){
 				$arr = Array();
-				$portletArray = $this->getPortletContent();
-				foreach ($portletArray['portletContent'] as $key => $value) {
+				// $portletArray = $this->getPortletContent();
+				foreach ($this->portletArray['portletContent'] as $key => $value) {
 					foreach ($value->packageDetails as $packageDetail ) {
 						if(($packageDetail->cd_name == 'Video' || $packageDetail->cd_name == 'Video Clip')  && $portletId == $packageDetail->portletId ){
 							$arr[] = $packageDetail;
@@ -93,15 +100,19 @@
 				}
 			  return $arr;
 		}
-		public function getPortletVideosBySearchKeywords($portletId){
-			$arr = Array();
-			foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
-					if($value->cd_name == 'Video' && $portletId == $value->portletId){
-						$arr[] = $value;
-					}
-			}
-			return $arr;
-		}
+
+
+		// public function getPortletVideosBySearchKeywords($portletId){
+		// 	$arr = Array();
+		// 	foreach ($this->getPortletContent()['portletContent'] as $key => $value) {
+		// 			if($value->cd_name == 'Video' && $portletId == $value->portletId){
+		// 				$arr[] = $value;
+		// 			}
+		// 	}
+		// 	return $arr;
+		// }
+
+
 		public function getPortletBestseller($portletId){
 			// $arr = Array();
 			// $portletArray = $this->getPortletContent();
