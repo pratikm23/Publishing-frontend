@@ -14,7 +14,6 @@
 						if( !empty( $subscriptionPlans->subscriptionDetails ) ) {
 							foreach ($subscriptionPlans->subscriptionDetails as $subscriptionDetail ) {
 												
-						
 						?>
 						 
 		<tr>

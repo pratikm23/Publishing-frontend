@@ -19,8 +19,13 @@ $f = (isset($extractParams['f']))?$extractParams['f']:$currentPage;
 $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
 
 $price_point = (isset($extractParams['EventId']) and $extractParams['EventId'] != '' and $extractParams['EventId'] != null)? base64_decode($extractParams['EventId']): $OprSubParam['CPEVENT'];
+// print_r($userStatus);
+$userStatus = 'NEWUSER';
 
 if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
+	// print_r($operator);
+	// print_r($config->allowedOperators);
+	// exit;
 	if( !in_array($operator, $config->allowedOperators) ){
 		header("Location: error.php?responseId=999999&resDesc=Invalid Operator Info");
 		exit();
@@ -41,11 +46,17 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		// echo $fUrl;
 		 //print_r($hostName);
 
+		$urlPart = strtok($_SERVER["REQUEST_URI"],'?');
+		$urlPart = substr(strtok($_SERVER["REQUEST_URI"],'?'),0,strrpos($urlPart,"/"));
+
+
 		if(stripos($hostName, "http://") !== false){
-   			$fUrl = $hostName.'/error.php';   
- 		 }else{
-   			$fUrl = 'http://'.$hostName.'/error.php';   
-  		 }
+   			$fUrl = $hostName.$urlPart.'/error.php';   
+ 		}else{
+   			$fUrl = 'http://'.$hostName.$urlPart.'/error.php';   
+  		}
+
+
 
 		// echo $price_point;
         if( isset($t) and isset($n) and isset($d) and isset($m) ){
@@ -88,7 +99,7 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 		
 		
 		$billing_gateway = 'http://103.43.2.5/'.$config->operatorData[$operator]['BillingServiceSub'].'?REQUESTTYPE=NEW_SUB&APPCONTID=123&UNITTYPE=SUBSCRIPTION&CPEVENT='.$price_point.'&MSISDN='.$msisdn.'&OPERATOR='.$operator.'&CMODE='.$OprSubParam['CMODE'].'&UID='.($config::UID).'&PASS='.($config::Paswd).'&TRANSID='.$TransId.'&RETURL='.$retUrl.'&FLRETURL='.$fUrl.'&OTHER1='.$image_url.'&OTHER2='.$hostName.'&TOKENCALL='.$Token;
-		print_r($billing_gateway);
+	
 		// $direct2cg->logSubscription($subscribeData);
 
 		

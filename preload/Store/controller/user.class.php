@@ -335,6 +335,7 @@ class User {
 				$this->price_point = (string)$outputSubPack['price_point'];
 			}
 		}else{
+			
 			$this->userId = self::UNKNOWN;
 			$this->userStatus = self::UNKNOWN;
 			$this->operator = self::UNKNOWN;
