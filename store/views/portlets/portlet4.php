@@ -44,9 +44,11 @@
         <td height="30" colspan="3" align="right">
             <?php
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){
+                     if(count($storeObj->getPortletWallpapers($CURRENT_PORTLETID)) > $THUMBNAIL_LIMIT) {
             ?>
                 <a href="../<?=$SUBPARAM?>&f=home&n=<?=base64_encode(1)?>" style="text-decoration:none;">More >></a>
             <?php
+                    }
                 }else{ 
                     //$count= count($storeObj->getPortletWallpapers($CURRENT_PORTLETID));
                     if(count($storeObj->getPortletWallpapers($CURRENT_PORTLETID)) > $THUMBNAIL_LIMIT) {

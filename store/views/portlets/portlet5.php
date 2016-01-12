@@ -1,9 +1,10 @@
 <?php
+    //Bestseller porlet : 
     // Portlet Config : 
     $CURRENT_PORTLETID = 5;
     $PORTLET_CONTENT_TYPE = 'Video';
     $PORTLET_RESOLUTION = 'low';
-    $THUMBNAIL_LIMIT = 3;
+    $THUMBNAIL_LIMIT = 2;
     $THUMBURL = "http://d85mhbly9q6nd.cloudfront.net/";
 ?>
 <?php if(sizeof($storeObj->getPortletVideos($CURRENT_PORTLETID)) > 0 ) {  ?>

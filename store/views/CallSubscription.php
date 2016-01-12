@@ -18,8 +18,11 @@ if($userStatus == 'NEWUSER' or $userStatus == 'UNKNOWN' or $userStatus == 'UNSUB
 			
 			$cpevent = base64_decode($eventId);
 			
+			$urlPart = strtok($_SERVER["REQUEST_URI"],'?');
+			$urlPart = substr(strtok($_SERVER["REQUEST_URI"],'?'),0,strrpos($urlPart,"/"));
+
 			$retUrl = $linkUrl.'index.php';				
-			$ErrorUrl = $linkUrl.'error.php';
+			$ErrorUrl = $hostName.$urlPart.'/error.php';
 			
 			$image_url = $hostName.'/cgImage/Footer_cg_image640x640.jpg';
 			

@@ -1,7 +1,0 @@
-[11-Jan-2016 12:30:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'ScientiaMobile\WurflCloud\HttpClient\HttpException' with message 'Unable to contact server: cURL Error: Operation timed out after 1000 milliseconds with 0 bytes received' in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php:78
-Stack trace:
-#0 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(308): ScientiaMobile\WurflCloud\HttpClient\Curl->call(Object(ScientiaMobile\WurflCloud\Config), '/v1/json/')
-#1 C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\Client.php(165): ScientiaMobile\WurflCloud\Client->callWurflCloud()
-#2 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(103): ScientiaMobile\WurflCloud\Client->detectDevice(Array)
-#3 C:\wamp\www\PortletPublish_php\preload\Store\controller\device.class.php(73): Store\Device\Device->getWurlInfoFromServer()
-#4 C:\wamp\www\PortletPublish_php\preload\Store\controller\user.class.php(156): Store\ in C:\wamp\www\PortletPublish_php\preload\Store\plugin\wurfl\ScientiaMobile\WurflCloud\HttpClient\Curl.php on line 78

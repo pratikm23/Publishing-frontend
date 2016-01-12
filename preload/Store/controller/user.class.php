@@ -301,7 +301,9 @@ class User {
 			
 			$this->userId = $extractInfo['Response']['user_id'];
 			// print_r($this->userId);
+			// print_r($extractInfo['Response']);
 			// exit;
+
 			$this->userStatus = $extractInfo['Response']['user_status'];
 			$this->operator = $extractInfo['Response']['operator'];
 
@@ -335,7 +337,7 @@ class User {
 				$this->price_point = (string)$outputSubPack['price_point'];
 			}
 		}else{
-			
+
 			$this->userId = self::UNKNOWN;
 			$this->userStatus = self::UNKNOWN;
 			$this->operator = self::UNKNOWN;
@@ -346,6 +348,8 @@ class User {
 	}
 
 	private function setUserCookie($userObj){
+		// print_r($userObj);
+		// exit;
 		if( isset($_COOKIE[$this->CookieTag.'_user_status']) && $_COOKIE[$this->CookieTag.'_user_status'] != $userObj['user_status'] ){
 			$this->config->setcookie($this->CookieTag.'_user_status', $userObj['user_status']);
 		}else{
@@ -369,7 +373,14 @@ class User {
 	private function getMsisdnDetails(){
 		$extractInfo = array();
 		$this->url =  AUTH_SERVICE.'/?AppId='.$this->STOREID.'&MSISDN='.$this->msisdn.'&NET_IP_ADDRESS='.$this->clientIp.'&IMSI='.$this->imsi;
+		// print_r($this->url);
+
+		
 		$content = $this->curlMethods->executeCurl($this->url);
+		
+		// echo "<pre>";
+		// print_r($content);
+		// echo "</pre>";
 		// exit;
 
 		$temp = explode(',', $content['Content']);
@@ -419,6 +430,7 @@ class User {
 
 	public function getOperator(){
 		return $this->operator;
+		 // return "voda";
 	}
 
 	public function getToken(){

@@ -39,6 +39,7 @@
 	$SUBPARAM =$searchObj->subParam;
 	$SEARCHTXT = isset($_GET['search_txt']) ? $_GET['search_txt'] :'';
 	
+
 	// $SEARCHTXT = "a";
 ?>
 	<div style="text-align:center">
@@ -50,6 +51,12 @@
 
 		$portletArray_video = $searchObj->getPortletFilteredContent($SEARCHTXT,9);
 		$portletArray_wallpaper = $searchObj->getPortletFilteredContent($SEARCHTXT,8);
+		if(count($portletArray_video) == 0 && count($portletArray_wallpaper) == 0){
+			echo "<center>No search result found</center>";
+		}
+		if($SEARCHTXT == ''){
+			echo "<center>Please enter search text</center>";
+		}
 	?>
 
 <?php if(sizeof($portletArray_video) > 0 ) { ?>
@@ -168,6 +175,8 @@
 		        </td>
 		    </tr>
 		</table>
- 	
+ 	<?php
+ 		include_once 'portlets/footer.php';
+ 	?>
  </body>
  </html>

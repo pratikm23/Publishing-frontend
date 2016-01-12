@@ -20,7 +20,7 @@ $promo = (isset($extractParams['promo']))? $extractParams['promo']:$promo;
 
 $price_point = (isset($extractParams['EventId']) and $extractParams['EventId'] != '' and $extractParams['EventId'] != null)? base64_decode($extractParams['EventId']): $OprSubParam['CPEVENT'];
 // print_r($userStatus);
-$userStatus = 'NEWUSER';
+// $userStatus = 'NEWUSER';
 
 if($userStatus == 'NEWUSER' or $userStatus == 'UNSUBSCRIBED' ){
 	// print_r($operator);

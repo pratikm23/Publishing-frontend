@@ -9,10 +9,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Welcome to Daily Magic</title>
  </head>
- <body>
+ <body style="margin:0">
  	
- </body>
- </html>
+
 
 
 <?php
@@ -48,6 +47,7 @@
 	
 	$USERSTATUS = $storeObj->userStatus;
 	
+	
 	// $USERSTATUS = "NEWUSER";
 	// $USERSTATUS = "SUBSCRIBED";
 
@@ -66,5 +66,7 @@
      	require "portlets/portlet".$value->portletId.".php";
 	}
 
-
+	
 ?>
+ </body>
+ </html>

@@ -1,9 +1,10 @@
 <!-- HEADER -->
-<?php 
+<?php
+ 
 	if($USERSTATUS != 'NEWUSER' && $USERSTATUS != 'UNKNOWN' && $USERSTATUS != 'UNSUBSCRIBED' ){
 		$search_width = 25;
 	}else{
-		$search_width = 33;
+		$search_width = 33.3;
 	}
 ?>
 <div>

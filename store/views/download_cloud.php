@@ -12,12 +12,12 @@ header("access-control-allow-origin: *");
 
 // include 'site/config.inc.php';
 // include '../../site/lib/bootstrap.php';
-include '../../site/lib/Db.php';
+// include '../../site/lib/Db.php';
 include_once '../../preload/Store/config.php';
 
 use Store\Curl as Curl;
-$dbCMS = new Db('root', '','icon_cms');
-$dbCon = $dbCMS->getConnection();
+// $dbCMS = new Db('root', '','icon_cms');
+// $dbCon = $dbCMS->getConnection();
 $curlObj = new Curl\Curl();
 
 
@@ -32,8 +32,8 @@ $curlObj = new Curl\Curl();
 // 		header("Location: index.php");
 // 		exit();
 // 	}else{
-		//$fileType = $_GET['t'];
-		//$fileName = $_GET['n'];
+		$fileType = $_GET['t'];
+		$fileName = $_GET['n'];
 		$cont_reso_type = isset($_GET['r']) ? $_GET['r'] : '0';
 		$catalogue_detail_id = $_GET['d'];
 		$content_metadata_id = $_GET['m'];
@@ -181,7 +181,7 @@ $curlObj = new Curl\Curl();
 		
 		header("Location: ".$signed_url);
 		exit();
-	// }	
+// 	}	
 // }	
 
 			

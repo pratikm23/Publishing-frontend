@@ -62,9 +62,13 @@
             //TO CHANGE :: PROMO ID     
 
                   if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){                  
+                        if(count($storeObj->getPortletVideos($CURRENT_PORTLETID))>$THUMBNAIL_LIMIT) {
+                            
             ?>
-                <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
+                    
+                        <a href="../<?=$SUBPARAM?>&f=home" style="text-decoration:none;">More >></a>
             <?php
+                        }
                     }else{ 
                         
                         if(count($storeObj->getPortletVideos($CURRENT_PORTLETID))>$THUMBNAIL_LIMIT) {

@@ -1,15 +1,27 @@
+<div style="text-align:center">
+				<img src="../../public/assets/img/d2clogo_320x45.png" />
+</div>
 <?php
 	include_once '../../preload/Store/config.php';	
     include_once "../../site/lib/functions.php";
 	include "../controller/subscription.controller.php";
 	$subObj = new Subscription();
-?>
-		<center><strong>Subscription Packs</strong></center>
+	$USERSTATUS = $userStatus;
+	include 'portlets/header.php';
 
+?>
+
+		<center><strong>Subscription Packs</strong></center>
+<!-- <div style="width:50%"> -->
 			<table width="50%" border="0" cellspacing="0" cellpadding="0" align="center">
 				<?php 
 					$subscriptionPlans = $subObj->getPlanDetails();
-					
+
+					if(empty($subscriptionPlans->subscriptionDetails)){
+						echo "<center>No Subscription plan found</center>";
+						exit;
+					}
+
 					if($subscriptionPlans->status != 'ERROR' ){
 						if( !empty( $subscriptionPlans->subscriptionDetails ) ) {
 							foreach ($subscriptionPlans->subscriptionDetails as $subscriptionDetail ) {
@@ -18,11 +30,11 @@
 						 
 		<tr>
      			<td>&nbsp;</td>
-   			</tr>
-   <tr>
-     <td align="center">
-     <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
+   		</tr>
+	   <tr>
+	     <td >
+	     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
 	    <td>
 	    	<!-- $value['sp_jed_id'] -->
 	    	<a href="CallSubscription.php?EventId=<?=base64_encode($subscriptionDetail->sp_jed_id)?>" style=" text-decoration:none; color:#000000;"> 
@@ -51,9 +63,13 @@
 		    </a>
 	 	</td>
   </tr>
+  </table>
+
+	
 				<?php
 					
 					}
+
 				}else {?>
 					<tr>
 				         <td align="center" bgcolor="#999999"><?php "No subscription plans found !." ?></td>
@@ -64,7 +80,13 @@
 					<tr>
 				         <td align="center" bgcolor="#999999"><?php echo $subscriptionPlans->msgs; ?></td>
 				         
-				       </tr>
+				    </tr>
 			 <?php 	} ?>
-	</table>
-	
+	    
+</table>
+	<center>Tip: Click on one of the options above to subscribe</center>
+<!-- </div> -->
+<div >
+	<?php include_once ('portlets/footer.php'); ?>
+</div>
+

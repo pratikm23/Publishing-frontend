@@ -72,9 +72,13 @@
             <?php
                 }else{
                     //For hiding more link :
-                   $isMoreContent= $storeObj->isMore($storeObj->getPortletWallpapers($CURRENT_PORTLETID),$_GET['startFrom']+1,$EACHPAGE);
+                 $isMoreContent= $storeObj->isMore($storeObj->getPortletWallpapers($CURRENT_PORTLETID),$_GET['startFrom']+1,$EACHPAGE);
                    //print_r($count);
-                    if($isMoreContent) { 
+                 if($_GET['startFrom'] > 0){
+            ?>
+                 <a href="?pg=photos.php&startFrom=<?=$_GET['startFrom']-1?>" style="text-decoration:none;"> << Back </a>
+              <?php   }
+                 if($isMoreContent) { 
             ?>
                  <a href="?pg=photos.php&startFrom=<?=$_GET['startFrom']+1?>" style="text-decoration:none;">More >></a>
             <?php
@@ -85,3 +89,6 @@
     </tr>
 </table>
 
+<?php
+    include_once 'footer.php';
+?>

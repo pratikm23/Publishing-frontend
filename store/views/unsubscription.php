@@ -63,7 +63,8 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 				
 				$pString = rtrim($pString, '&');
 				
-
+				// print_r($current_url);
+				// echo "<br/>";
 			
 				$u=$curlObj->executePostCurlHeader($current_url,1,$pString);
 
@@ -83,6 +84,7 @@ if($userStatus != 'NEWUSER' and $userStatus != 'UNKNOWN' and $userStatus != 'UNS
 				
 
 				$headers = get_headers_from_curl_response($u['Content']);
+
 				// print_r($headers);
 				
 			}

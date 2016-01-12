@@ -10,12 +10,16 @@
 	<title>Welcome to Daily Magic</title>
  </head>
  <body>
-
+<div style="text-align:center">
+				<img src="../../public/assets/img/d2clogo_320x45.png" />
+</div>
 <?php
-include_once '../../../preload/Store/config.php';	
-include_once "../../../site/lib/functions.php";
-include_once "../../controller/download.history.controller.php";
+include_once '../../preload/Store/config.php';	
+// include_once "../../../site/lib/functions.php";
+include_once "../controller/download.history.controller.php";
 $historyObj = new History(); 
+$USERSTATUS = $userStatus;
+include "portlets/header.php";
 
 $THUMBNAIL_LIMIT = 2;
 $STOREID = 1;
@@ -47,7 +51,7 @@ if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUB
 	<tr>
 		<td height="40" align="center">		
 
-			<a href="../direct2CG.php?c=1&<?=$PROMOID?>&f=account">Click Here to Subscribe</a>			
+		<a href="direct2CG.php?c=1&<?=$PROMOID?>&f=account">Click Here to Subscribe</a>			
 			
 		</td>
 	</tr>
@@ -100,7 +104,7 @@ if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUB
 	      			<tr>                
 						<td height="30" colspan="3" align="right">
 							<?  //echo $linkUrl.'history_list.php?page='.$next_page = $page+1 .'&type=Video' ?>
-							<a  href="../history.php" style="text-decoration:none;">More >></a>
+							<a  href="history.php" style="text-decoration:none;">More >></a>
 						</td>
 					</tr>
 				<?php
@@ -148,7 +152,7 @@ if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUB
 					<tr>                
 						<td height="30" colspan="3" align="right">
 							<?  //echo $linkUrl.'history_list.php?page='.$next_page = $page+1 .'&type=Photos' ?>
-							<a href="../history.php" style="text-decoration:none;">More >></a>
+							<a href="history.php" style="text-decoration:none;">More >></a>
 						</td>
 					</tr>
 					<?php
@@ -302,14 +306,14 @@ if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUB
 		<td height="40" align="center">
 			<?php if($USERSTATUS == 'NEWUSER' || $USERSTATUS == 'UNKNOWN' || $USERSTATUS == 'UNSUBSCRIBED' ){  ?>			
 			<?php }elseif($USERSTATUS != 'PENDING'){ ?>
-			<a href="../unsubscribe.php">Click Here to Unsubscribe</a>
+			<a href="unsubscribe.php">Click Here to Unsubscribe</a>
 			<?php } ?>
 			
 			</a>
 		</td>
 	</tr>
 <?php
-//include 'footer.php';
+include 'portlets/footer.php';
 ?>
 </body>
  </html>

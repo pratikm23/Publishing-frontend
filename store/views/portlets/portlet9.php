@@ -51,13 +51,13 @@
 ?>
     
          <td align="center">
-            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION)?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">
+            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,$PORTLET_RESOLUTION)?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>&r=176">
                    <img src="<?=$THUMBURL?><?=$value->cf_cm_id?>_thumb_125_125.jpg" width="125" height="125" alt="" /></a>
             <br/>
            
             <!-- Links for medium and high res -->
-            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,'high')?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">High</a>
-            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,'medium')?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>">Medium</a>
+            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,'high')?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>&r=360">High</a>
+            <a href="<?=$DOWNLOADPATH?>?t=<?=$value->contentTypeMD5?>&n=<?=$storeObj->getDifferentFileNames($value->cf_url,$PORTLET_CONTENT_TYPE,'medium')?>&m=<?=$value->cf_cm_id?>&d=<?=$value->cd_id?>&r=240">Medium</a>
         </td>
         <td> 
              <?php  echo "Category:".$value->genre."<br/>"; ?> 
@@ -80,9 +80,13 @@
                         //For hiding more link :
                    $isMoreContent= $storeObj->isMore($storeObj->getPortletVideos($CURRENT_PORTLETID),$_GET['startFrom']+1,$EACHPAGE);
                    //print_r($count);
+                   if($_GET['startFrom'] > 0){
+            ?>
+                        <a href="?pg=video.php&startFrom=<?=$_GET['startFrom']-1?>" style="text-decoration:none;"> << Back </a>
+              <?php   }
                     if($isMoreContent) { 
             ?>
-                 <a href="?pg=video.php" style="text-decoration:none;">More >></a>
+                 <a href="?pg=video.php&startFrom=<?=$_GET['startFrom']+1?>" style="text-decoration:none;">More >></a>
             <?php
 
                     }
@@ -92,4 +96,6 @@
         </td>
     </tr>
 </table>
-
+<?php
+    include_once 'footer.php';
+?>
